@@ -84,7 +84,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#electronics-basics" class="md-skip">
+        <a href="#basics-of-electronics" class="md-skip">
           Skip to content
         </a>
       
@@ -909,6 +909,34 @@
       
     </span>
   </a>
+  
+    <nav class="md-nav" aria-label="Semiconductors">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#diode" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Diode
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#transistor" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Transistor
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
         
@@ -2291,6 +2319,34 @@
     </span>
   </a>
   
+    <nav class="md-nav" aria-label="Semiconductors">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#diode" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Diode
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#transistor" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Transistor
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
         
       </ul>
@@ -2390,39 +2446,71 @@
   
 
 
-<h1 id="electronics-basics">Electronics Basics</h1>
+<h1 id="basics-of-electronics">Basics of Electronics</h1>
 <p>Understanding electronics is fundamental for every radio amateur.</p>
 <h2 id="basic-components">Basic Components</h2>
 <h3 id="resistor">Resistor</h3>
-<p>Limits the flow of electric current.
-- <strong>Unit</strong>: Ohm ($\Omega$)
-- <strong>Symbol</strong>: R
-- <strong>Usage</strong>: Voltage adjustment, current limiting for LEDs.</p>
-<h3 id="capacitor">Capacitor</h3>
-<p>Stores electrical energy in an electric field.
-- <strong>Unit</strong>: Farad (F) - usually $\mu F$, $nF$, $pF$.
-- <strong>Symbol</strong>: C
-- <strong>Usage</strong>: Voltage filtering, resonant circuits, blocking DC current.</p>
-<h3 id="inductor">Inductor</h3>
-<p>Stores energy in a magnetic field.
-- <strong>Unit</strong>: Henry (H) - usually $\mu H$, $mH$.
-- <strong>Symbol</strong>: L
-- <strong>Usage</strong>: Resonant circuits, chokes, transformers.</p>
-<h3 id="semiconductors">Semiconductors</h3>
+<p><img alt="Resistor" src="https://upload.wikimedia.org/wikipedia/commons/e/e5/Resistors-photo.jpg" /></p>
+<p>Limits the flow of electric current. Think of it as a narrowing in a pipe through which water flows.</p>
 <ul>
-<li><strong>Diode</strong>: Allows current to flow in only one direction (rectifiers).</li>
-<li><strong>Transistor</strong>: Amplifies signals or acts as a switch (BJT, FET). The foundation of all modern devices.</li>
+<li><strong>Unit</strong>: Ohm (<span class="arithmatex">\(\Omega\)</span>)</li>
+<li><strong>Symbol</strong>: <span class="arithmatex">\(R\)</span></li>
+<li><strong>Usage</strong>: Voltage adjustment, current limiting for LEDs.</li>
+<li><a href="https://www.youtube.com/results?search_query=how+resistors+work+engineering+mindset"><strong>Video: How Resistors Work (Engineering Mindset)</strong></a></li>
 </ul>
+<hr />
+<h3 id="capacitor">Capacitor</h3>
+<p><img alt="Capacitor" src="https://upload.wikimedia.org/wikipedia/commons/b/b9/Capacitors_%287189597135%29.jpg" /></p>
+<p>Stores electrical energy in an electric field. Works like a small battery that can charge and discharge very quickly.</p>
+<ul>
+<li><strong>Unit</strong>: Farad (<span class="arithmatex">\(F\)</span>) - in practice <span class="arithmatex">\(\mu F\)</span>, <span class="arithmatex">\(nF\)</span>, <span class="arithmatex">\(pF\)</span> are used.</li>
+<li><strong>Symbol</strong>: <span class="arithmatex">\(C\)</span></li>
+<li><strong>Usage</strong>: Voltage filtering (smoothing), resonant circuits, blocking DC current.</li>
+<li><a href="https://www.youtube.com/results?search_query=how+capacitors+work+engineering+mindset"><strong>Video: How Capacitors Work</strong></a></li>
+</ul>
+<hr />
+<h3 id="inductor">Inductor</h3>
+<p><img alt="Inductor" src="https://upload.wikimedia.org/wikipedia/commons/9/94/Inductor_coils.jpg" /></p>
+<p>Stores energy in a magnetic field. Opposes any change in current.</p>
+<ul>
+<li><strong>Unit</strong>: Henry (<span class="arithmatex">\(H\)</span>) - usually <span class="arithmatex">\(\mu H\)</span>, <span class="arithmatex">\(mH\)</span>.</li>
+<li><strong>Symbol</strong>: <span class="arithmatex">\(L\)</span></li>
+<li><strong>Usage</strong>: Resonant circuits, chokes (blocking HF signals), transformers.</li>
+<li><a href="https://www.youtube.com/results?search_query=how+inductors+work+engineering+mindset"><strong>Video: How Inductors Work</strong></a></li>
+</ul>
+<hr />
+<h3 id="semiconductors">Semiconductors</h3>
+<h4 id="diode">Diode</h4>
+<p><img alt="Diode" src="https://upload.wikimedia.org/wikipedia/commons/c/cc/Diode-closeup.jpg" /></p>
+<p>Electronic check valve. Allows current to flow in only one direction.</p>
+<ul>
+<li><strong>Symbol</strong>: <span class="arithmatex">\(D\)</span></li>
+<li><strong>Usage</strong>: Rectifying AC to DC (rectifiers), signal detection.</li>
+<li><a href="https://www.youtube.com/results?search_query=how+diodes+work+engineering+mindset"><strong>Video: How Diodes Work</strong></a></li>
+</ul>
+<h4 id="transistor">Transistor</h4>
+<p><img alt="Transistor" src="https://upload.wikimedia.org/wikipedia/commons/2/23/Transistors-white.jpg" /></p>
+<p>Active component that can amplify signals or act as an electronic switch. The foundation of all modern devices.</p>
+<ul>
+<li><strong>Types</strong>: Bipolar (BJT), Unipolar (FET, MOSFET).</li>
+<li><strong>Symbol</strong>: <span class="arithmatex">\(Q\)</span> or <span class="arithmatex">\(TR\)</span></li>
+<li><strong>Usage</strong>: Amplifiers, oscillators, switches.</li>
+<li><a href="https://www.youtube.com/results?search_query=how+transistors+work+engineering+mindset"><strong>Video: How Transistors Work</strong></a></li>
+</ul>
+<hr />
 <h2 id="ohms-law">Ohm's Law</h2>
-<p>The fundamental law of electrical engineering:
-$$ I = \frac{U}{R} $$
-Where:
-- $I$ = Current (Ampere)
-- $U$ = Voltage (Volt)
-- $R$ = Resistance (Ohm)</p>
+<p>The fundamental law of electrical engineering describing the relationship between voltage, current, and resistance.</p>
+<div class="arithmatex">\[ I = \frac{U}{R} \]</div>
+<p>Where:
+*   <span class="arithmatex">\(I\)</span> = Current (Ampere - <span class="arithmatex">\(A\)</span>)
+*   <span class="arithmatex">\(U\)</span> = Voltage (Volt - <span class="arithmatex">\(V\)</span>)
+*   <span class="arithmatex">\(R\)</span> = Resistance (Ohm - <span class="arithmatex">\(\Omega\)</span>)</p>
 <h2 id="power">Power</h2>
-<p>$$ P = U \cdot I $$
-- $P$ = Power (Watt)</p>
+<div class="arithmatex">\[ P = U \cdot I \]</div>
+<ul>
+<li><span class="arithmatex">\(P\)</span> = Power (Watt - <span class="arithmatex">\(W\)</span>)</li>
+</ul>
+<hr />
 <h2 id="learning-resources">Learning Resources</h2>
 <h3 id="circuit-simulators">Circuit Simulators</h3>
 <p>Visualization is the best way to learn electronics.
@@ -2502,6 +2590,12 @@ Where:
     
     
       <script src="../../../assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+        <script src="../../../javascripts/mathjax.js"></script>
+      
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
       
     
   </body>

@@ -910,6 +910,34 @@
     </span>
   </a>
   
+    <nav class="md-nav" aria-label="Poluvodiči">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#dioda" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Dioda
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tranzistor" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Tranzistor
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
         
       </ul>
@@ -2291,6 +2319,34 @@
     </span>
   </a>
   
+    <nav class="md-nav" aria-label="Poluvodiči">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#dioda" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Dioda
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tranzistor" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Tranzistor
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
         
       </ul>
@@ -2394,35 +2450,67 @@
 <p>Razumijevanje elektronike je temelj za svakog radioamatera.</p>
 <h2 id="osnovne-komponente">Osnovne komponente</h2>
 <h3 id="otpornik-resistor">Otpornik (Resistor)</h3>
-<p>Ograničava tok električne struje.
-- <strong>Jedinica</strong>: Ohm ($\Omega$)
-- <strong>Oznaka</strong>: R
-- <strong>Primjena</strong>: Prilagodba napona, ograničavanje struje LED dioda.</p>
-<h3 id="kondenzator-capacitor">Kondenzator (Capacitor)</h3>
-<p>Pohranjuje električnu energiju u električnom polju.
-- <strong>Jedinica</strong>: Farad (F) - najčešće $\mu F$, $nF$, $pF$.
-- <strong>Oznaka</strong>: C
-- <strong>Primjena</strong>: Filtriranje napona, titrajni krugovi, blokiranje istosmjerne struje.</p>
-<h3 id="zavojnica-inductor">Zavojnica (Inductor)</h3>
-<p>Pohranjuje energiju u magnetskom polju.
-- <strong>Jedinica</strong>: Henry (H) - najčešće $\mu H$, $mH$.
-- <strong>Oznaka</strong>: L
-- <strong>Primjena</strong>: Titrajni krugovi, prigušnice, transformatori.</p>
-<h3 id="poluvodici">Poluvodiči</h3>
+<p><img alt="Otpornik" src="https://upload.wikimedia.org/wikipedia/commons/e/e5/Resistors-photo.jpg" /></p>
+<p>Ograničava tok električne struje. Zamislite ga kao suženje cijevi kroz koju teče voda.</p>
 <ul>
-<li><strong>Dioda</strong>: Propušta struju samo u jednom smjeru (ispravljači).</li>
-<li><strong>Tranzistor</strong>: Pojačava signal ili radi kao sklopka (BJT, FET). Temelj svih modernih uređaja.</li>
+<li><strong>Jedinica</strong>: Ohm (<span class="arithmatex">\(\Omega\)</span>)</li>
+<li><strong>Oznaka</strong>: <span class="arithmatex">\(R\)</span></li>
+<li><strong>Primjena</strong>: Prilagodba napona, ograničavanje struje LED dioda.</li>
+<li><a href="https://www.youtube.com/results?search_query=how+resistors+work+engineering+mindset"><strong>Video: Kako radi otpornik (Engineering Mindset)</strong></a></li>
 </ul>
+<hr />
+<h3 id="kondenzator-capacitor">Kondenzator (Capacitor)</h3>
+<p><img alt="Kondenzator" src="https://upload.wikimedia.org/wikipedia/commons/b/b9/Capacitors_%287189597135%29.jpg" /></p>
+<p>Pohranjuje električnu energiju u električnom polju. Radi kao mala baterija koja se može jako brzo puniti i prazniti.</p>
+<ul>
+<li><strong>Jedinica</strong>: Farad (<span class="arithmatex">\(F\)</span>) - u praksi se koriste <span class="arithmatex">\(\mu F\)</span>, <span class="arithmatex">\(nF\)</span>, <span class="arithmatex">\(pF\)</span>.</li>
+<li><strong>Oznaka</strong>: <span class="arithmatex">\(C\)</span></li>
+<li><strong>Primjena</strong>: Filtriranje napona (peglanje), titrajni krugovi, blokiranje istosmjerne struje.</li>
+<li><a href="https://www.youtube.com/results?search_query=how+capacitors+work+engineering+mindset"><strong>Video: Kako radi kondenzator</strong></a></li>
+</ul>
+<hr />
+<h3 id="zavojnica-inductor">Zavojnica (Inductor)</h3>
+<p><img alt="Zavojnica" src="https://upload.wikimedia.org/wikipedia/commons/9/94/Inductor_coils.jpg" /></p>
+<p>Pohranjuje energiju u magnetskom polju. Opire se svakoj promjeni struje.</p>
+<ul>
+<li><strong>Jedinica</strong>: Henry (<span class="arithmatex">\(H\)</span>) - najčešće <span class="arithmatex">\(\mu H\)</span>, <span class="arithmatex">\(mH\)</span>.</li>
+<li><strong>Oznaka</strong>: <span class="arithmatex">\(L\)</span></li>
+<li><strong>Primjena</strong>: Titrajni krugovi, prigušnice (blokiranje VF signala), transformatori.</li>
+<li><a href="https://www.youtube.com/results?search_query=how+inductors+work+engineering+mindset"><strong>Video: Kako radi zavojnica</strong></a></li>
+</ul>
+<hr />
+<h3 id="poluvodici">Poluvodiči</h3>
+<h4 id="dioda">Dioda</h4>
+<p><img alt="Dioda" src="https://upload.wikimedia.org/wikipedia/commons/c/cc/Diode-closeup.jpg" /></p>
+<p>Elektronički nepovratni ventil. Propušta struju samo u jednom smjeru.</p>
+<ul>
+<li><strong>Oznaka</strong>: <span class="arithmatex">\(D\)</span></li>
+<li><strong>Primjena</strong>: Ispravljanje izmjenične struje u istosmjernu (ispravljači), detekcija signala.</li>
+<li><a href="https://www.youtube.com/results?search_query=how+diodes+work+engineering+mindset"><strong>Video: Kako radi dioda</strong></a></li>
+</ul>
+<h4 id="tranzistor">Tranzistor</h4>
+<p><img alt="Tranzistor" src="https://upload.wikimedia.org/wikipedia/commons/2/23/Transistors-white.jpg" /></p>
+<p>Aktivna komponenta koja može pojačavati signal ili raditi kao elektronička sklopka. Temelj je svih modernih uređaja.</p>
+<ul>
+<li><strong>Vrste</strong>: Bipolarni (BJT), Unipolarni (FET, MOSFET).</li>
+<li><strong>Oznaka</strong>: <span class="arithmatex">\(Q\)</span> ili <span class="arithmatex">\(TR\)</span></li>
+<li><strong>Primjena</strong>: Pojačala, oscilatori, prekidači.</li>
+<li><a href="https://www.youtube.com/results?search_query=how+transistors+work+engineering+mindset"><strong>Video: Kako radi tranzistor</strong></a></li>
+</ul>
+<hr />
 <h2 id="ohmov-zakon">Ohmov zakon</h2>
-<p>Temeljni zakon elektrotehnike:
-$$ I = \frac{U}{R} $$
-Gdje je:
-- $I$ = Struja (Amper)
-- $U$ = Napon (Volt)
-- $R$ = Otpor (Ohm)</p>
+<p>Temeljni zakon elektrotehnike koji opisuje odnos između napona, struje i otpora.</p>
+<div class="arithmatex">\[ I = \frac{U}{R} \]</div>
+<p>Gdje je:
+*   <span class="arithmatex">\(I\)</span> = Struja (Amper - <span class="arithmatex">\(A\)</span>)
+*   <span class="arithmatex">\(U\)</span> = Napon (Volt - <span class="arithmatex">\(V\)</span>)
+*   <span class="arithmatex">\(R\)</span> = Otpor (Ohm - <span class="arithmatex">\(\Omega\)</span>)</p>
 <h2 id="snaga">Snaga</h2>
-<p>$$ P = U \cdot I $$
-- $P$ = Snaga (Watt)</p>
+<div class="arithmatex">\[ P = U \cdot I \]</div>
+<ul>
+<li><span class="arithmatex">\(P\)</span> = Snaga (Watt - <span class="arithmatex">\(W\)</span>)</li>
+</ul>
+<hr />
 <h2 id="resursi-za-ucenje">Resursi za učenje</h2>
 <h3 id="simulatori-krugova">Simulatori krugova</h3>
 <p>Vizualizacija je najbolji način učenja elektronike.
@@ -2502,6 +2590,12 @@ Gdje je:
     
     
       <script src="../../assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+        <script src="../../javascripts/mathjax.js"></script>
+      
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
       
     
   </body>
