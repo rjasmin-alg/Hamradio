@@ -1,42 +1,86 @@
-# Electronics Basics
+# Basics of Electronics
 
 Understanding electronics is fundamental for every radio amateur.
 
 ## Basic Components
 
 ### Resistor
-Limits the flow of electric current.
-- **Unit**: Ohm ($\Omega$)
-- **Symbol**: R
-- **Usage**: Voltage adjustment, current limiting for LEDs.
+![Resistor](https://upload.wikimedia.org/wikipedia/commons/e/e5/Resistors-photo.jpg)
+
+Limits the flow of electric current. Think of it as a narrowing in a pipe through which water flows.
+
+*   **Unit**: Ohm ($\Omega$)
+*   **Symbol**: $R$
+*   **Usage**: Voltage adjustment, current limiting for LEDs.
+*   [**Video: How Resistors Work (Engineering Mindset)**](https://www.youtube.com/results?search_query=how+resistors+work+engineering+mindset)
+
+---
 
 ### Capacitor
-Stores electrical energy in an electric field.
-- **Unit**: Farad (F) - usually $\mu F$, $nF$, $pF$.
-- **Symbol**: C
-- **Usage**: Voltage filtering, resonant circuits, blocking DC current.
+![Capacitor](https://upload.wikimedia.org/wikipedia/commons/b/b9/Capacitors_%287189597135%29.jpg)
+
+Stores electrical energy in an electric field. Works like a small battery that can charge and discharge very quickly.
+
+*   **Unit**: Farad ($F$) - in practice $\mu F$, $nF$, $pF$ are used.
+*   **Symbol**: $C$
+*   **Usage**: Voltage filtering (smoothing), resonant circuits, blocking DC current.
+*   [**Video: How Capacitors Work**](https://www.youtube.com/results?search_query=how+capacitors+work+engineering+mindset)
+
+---
 
 ### Inductor
-Stores energy in a magnetic field.
-- **Unit**: Henry (H) - usually $\mu H$, $mH$.
-- **Symbol**: L
-- **Usage**: Resonant circuits, chokes, transformers.
+![Inductor](https://upload.wikimedia.org/wikipedia/commons/9/94/Inductor_coils.jpg)
+
+Stores energy in a magnetic field. Opposes any change in current.
+
+*   **Unit**: Henry ($H$) - usually $\mu H$, $mH$.
+*   **Symbol**: $L$
+*   **Usage**: Resonant circuits, chokes (blocking HF signals), transformers.
+*   [**Video: How Inductors Work**](https://www.youtube.com/results?search_query=how+inductors+work+engineering+mindset)
+
+---
 
 ### Semiconductors
-- **Diode**: Allows current to flow in only one direction (rectifiers).
-- **Transistor**: Amplifies signals or acts as a switch (BJT, FET). The foundation of all modern devices.
+
+#### Diode
+![Diode](https://upload.wikimedia.org/wikipedia/commons/c/cc/Diode-closeup.jpg)
+
+Electronic check valve. Allows current to flow in only one direction.
+
+*   **Symbol**: $D$
+*   **Usage**: Rectifying AC to DC (rectifiers), signal detection.
+*   [**Video: How Diodes Work**](https://www.youtube.com/results?search_query=how+diodes+work+engineering+mindset)
+
+#### Transistor
+![Transistor](https://upload.wikimedia.org/wikipedia/commons/2/23/Transistors-white.jpg)
+
+Active component that can amplify signals or act as an electronic switch. The foundation of all modern devices.
+
+*   **Types**: Bipolar (BJT), Unipolar (FET, MOSFET).
+*   **Symbol**: $Q$ or $TR$
+*   **Usage**: Amplifiers, oscillators, switches.
+*   [**Video: How Transistors Work**](https://www.youtube.com/results?search_query=how+transistors+work+engineering+mindset)
+
+---
 
 ## Ohm's Law
-The fundamental law of electrical engineering:
+
+The fundamental law of electrical engineering describing the relationship between voltage, current, and resistance.
+
 $$ I = \frac{U}{R} $$
+
 Where:
-- $I$ = Current (Ampere)
-- $U$ = Voltage (Volt)
-- $R$ = Resistance (Ohm)
+*   $I$ = Current (Ampere - $A$)
+*   $U$ = Voltage (Volt - $V$)
+*   $R$ = Resistance (Ohm - $\Omega$)
 
 ## Power
+
 $$ P = U \cdot I $$
-- $P$ = Power (Watt)
+
+*   $P$ = Power (Watt - $W$)
+
+---
 
 ## Learning Resources
 
