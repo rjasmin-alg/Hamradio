@@ -1,35 +1,34 @@
 # Transceivers and Equipment
 
-The radio (transceiver) is the heart of your station.
+Choosing the right radio depends on your interests, budget, and available space.
 
 ## Types of Radios
 
-### Handheld (HT)
-- **Description**: Small, portable radios with battery and antenna.
-- **Frequencies**: Mostly VHF (2m) and UHF (70cm).
-- **Power**: Usually up to 5W.
-- **Usage**: Local contacts, repeaters, field operations.
+### Handheld Transceivers (HT)
+![Handheld Radio](https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Handheld-radio-Amateur-ThaiCB.jpg/320px-Handheld-radio-Amateur-ThaiCB.jpg)
+
+Small, portable devices with their own battery and antenna.
+*   **Most common bands**: 2m (144 MHz) and 70cm (432 MHz).
+*   **Pros**: Cheap, mobile, great for local communication and repeater work.
+*   **Cons**: Low power (usually 5W), short range with the "rubber duck" antenna.
+
+### HF Base Stations
+![HF Station](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Amateurfunkstation.jpg/320px-Amateurfunkstation.jpg)
+
+Larger devices designed for the desk in the "shack".
+*   **Bands**: All HF bands (1.8 - 30 MHz), often 50 MHz too.
+*   **Power**: Usually 100W.
+*   **Pros**: Comfort, high power, advanced noise filtering features.
+*   **Note**: Requires external power supply (13.8V).
 
 ### Mobile Radios
-- **Description**: Designed for vehicle installation, but often used at home.
-- **Frequencies**: VHF/UHF, sometimes HF.
-- **Power**: 25W - 50W.
-- **Usage**: Mobile operation, base stations for local contacts.
-
-### Base Stations (HF Transceivers)
-- **Description**: Larger radios for stationary operation.
-- **Frequencies**: HF (Shortwave), often 6m.
-- **Power**: Standard 100W.
-- **Usage**: DX work, contesting, digital modes.
-
-### SDR (Software Defined Radio)
-- **Description**: Radio where most signal processing is done in software.
-- **Advantages**: Visual spectrum display (waterfall), excellent filters.
-- **Examples**: Icom IC-7300, FlexRadio, SunSDR.
+Designed for installation in vehicles.
+*   Usually VHF/UHF for FM operation, but HF mobile stations exist (e.g., Icom IC-7000 series).
+*   Higher power than HTs (50W).
 
 ## Accessories
 
-- **Power Supply**: Converts 230V AC to 13.8V DC.
-- **SWR Meter**: Measures antenna matching.
-- **Antenna Tuner (ATU)**: Matches antenna impedance to the radio.
-- **Microphone / Key**: For voice or telegraphy operation.
+*   **Power Supply**: Converts mains voltage to 13.8V DC.
+*   **SWR Meter**: Instrument for measuring antenna matching.
+*   **Antenna Tuner (ATU)**: Device matches antenna impedance to the radio.
+*   **Morse Key**: For telegraphy (CW).

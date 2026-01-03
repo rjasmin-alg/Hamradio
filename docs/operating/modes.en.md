@@ -1,38 +1,41 @@
 # Modes
 
-Radio amateurs use various methods to transmit information. Modes are divided into analog and digital, and within those, into voice and data.
+Radio amateurs use different types of modulation to transmit information. Each mode has its pros, cons, and specific "sound".
 
-## Analog Modes
+## CW (Continuous Wave / Telegraphy)
+![CW Key](https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/J-38_telegraph_key.jpg/320px-J-38_telegraph_key.jpg)
 
-### Voice
-- **SSB (Single Sideband)**: Most popular mode for DX (long-distance) on HF.
-- **FM (Frequency Modulation)**: Standard for local contacts on VHF/UHF.
-- **AM (Amplitude Modulation)**: Historic mode, less used today.
+The oldest form of communication. Uses Morse code (dots and dashes).
+*   **Pros**: Range (gets through when nothing else can), simple equipment, narrow bandwidth.
+*   **Sound**: Rhythmic beeping.
+*   [**Listen to CW (Video)**](https://www.youtube.com/results?search_query=cw+ham+radio+sound)
 
-### Data
-- **CW (Continuous Wave)**: Telegraphy, the most efficient mode for weak signals.
-- **SSTV (Slow Scan TV)**: Transmission of static images.
+## SSB (Single Sideband)
+![Radio Microphone](https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Shure_55S_microphone.jpg/240px-Shure_55S_microphone.jpg)
 
-## Digital Modes
+The most popular mode for voice on Shortwave (HF). An advanced version of AM that uses less energy.
+*   **LSB (Lower Sideband)**: Used below 10 MHz (40m, 80m).
+*   **USB (Upper Sideband)**: Used above 10 MHz (20m, 17m...) and on VHF/UHF.
+*   **Sound**: Human voice, but sounds like "Donald Duck" if you are not exactly on frequency.
+*   [**Listen to SSB (Video)**](https://www.youtube.com/results?search_query=ssb+ham+radio+sound)
 
-### Voice
-- **DMR (Digital Mobile Radio)**: Commercial standard adapted for hams.
-- **D-Star**: First digital mode developed specifically for hams (Icom).
-- **C4FM (System Fusion)**: Yaesu standard.
+## FM (Frequency Modulation)
+Standard for local contacts on VHF/UHF (handhelds).
+*   **Pros**: Clear sound, no noise (if signal is strong).
+*   **Cons**: Requires wide bandwidth, shorter range compared to SSB/CW.
 
-### Data
-- **FT8 / FT4**: Most popular weak-signal modes today.
-- **RTTY (Radioteletype)**: Classic for contesting.
-- **PSK31**: Popular "chat" mode.
-- **APRS**: Position reporting and short messaging system.
-- **Packet Radio**: Packet data transmission (AX.25).
+## Digital Modes (FT8, RTTY...)
+![FT8 Waterfall](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Waterfall-diagram-ft8.jpg/320px-Waterfall-diagram-ft8.jpg)
 
-## Mode/Band Table
+Computer and radio working together.
+*   **FT8**: Currently the most popular mode. Allows contacts with very low power and inaudible signals. The contact is automated.
+*   **RTTY (Teletype)**: Older digital mode, sounds like an "80s video game".
+*   **FT8 Sound**: Sounds like multiple tones warbling.
+*   [**Listen to FT8 (Video)**](https://www.youtube.com/results?search_query=ft8+sound+ham+radio)
 
-| Mode | Type | Usage | Popular Frequencies (e.g., 20m) |
-| :--- | :--- | :--- | :--- |
-| **CW** | Analog/Data | DX, Contesting | 14.000 - 14.070 MHz |
-| **FT8** | Digital/Data | Weak Signal DX | 14.074 MHz |
-| **RTTY** | Digital/Data | Contesting | 14.080 - 14.099 MHz |
-| **SSB (USB)** | Analog/Voice | DX, Ragchew | 14.150 - 14.350 MHz |
-| **SSTV** | Analog/Data | Images | 14.230 MHz |
+## Waterfall Display
+Modern radios and software display signals visually.
+*   **X Axis**: Frequency.
+*   **Y Axis**: Time.
+*   **Color**: Signal strength.
+*   Allows you to "see" stations before you hear them.

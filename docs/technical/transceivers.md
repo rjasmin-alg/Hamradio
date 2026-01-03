@@ -1,35 +1,34 @@
 # Primopredajnici i oprema
 
-Radio uređaj (primopredajnik ili transceiver) je srce vaše stanice.
+Izbor pravog uređaja ovisi o vašim interesima, budžetu i dostupnom prostoru.
 
 ## Vrste uređaja
 
 ### Ručni uređaji (Handheld / HT)
-- **Opis**: Mali, prijenosni uređaji s baterijom i antenom.
-- **Frekvencije**: Najčešće VHF (2m) i UHF (70cm).
-- **Snaga**: Obično do 5W.
-- **Primjena**: Lokalne veze, repetitori, rad na terenu.
+![Ručna stanica](https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Handheld-radio-Amateur-ThaiCB.jpg/320px-Handheld-radio-Amateur-ThaiCB.jpg)
+
+Mali, prijenosni uređaji s vlastitom baterijom i antenom.
+*   **Najčešći opsezi**: 2m (144 MHz) i 70cm (432 MHz).
+*   **Prednosti**: Jeftini, mobilni, odlični za lokalnu komunikaciju i rad preko repetitora.
+*   **Nedostaci**: Mala snaga (obično 5W), kratak domet s gumenom antenom.
+
+### HF Bazne stanice (HF Base Station)
+![HF Stanica](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Amateurfunkstation.jpg/320px-Amateurfunkstation.jpg)
+
+Veći uređaji namijenjeni za radni stol u "shacku".
+*   **Opsezi**: Svi KV opsezi (1.8 - 30 MHz), često i 50 MHz.
+*   **Snaga**: Obično 100W.
+*   **Prednosti**: Udobnost rada, velika snaga, napredne funkcije filtriranja smetnji.
+*   **Napomena**: Zahtijevaju vanjsko napajanje (13.8V).
 
 ### Mobilni uređaji
-- **Opis**: Dizajnirani za ugradnju u vozila, ali često se koriste i u kući.
-- **Frekvencije**: VHF/UHF, ponekad i HF.
-- **Snaga**: 25W - 50W.
-- **Primjena**: Mobilni rad, bazne stanice za lokalne veze.
-
-### Bazni uređaji (HF Transceivers)
-- **Opis**: Veći uređaji za stacionarni rad.
-- **Frekvencije**: HF (kratki val), često i 6m.
-- **Snaga**: Standardno 100W.
-- **Primjena**: DX rad, natjecanja, digitalni modovi.
-
-### SDR (Software Defined Radio)
-- **Opis**: Radio gdje se većina obrade signala vrši softverski.
-- **Prednosti**: Vizualni prikaz spektra (vodopad), odlični filteri.
-- **Primjeri**: Icom IC-7300, FlexRadio, SunSDR.
+Dizajnirani za ugradnju u vozila.
+*   Obično VHF/UHF za FM rad, ali postoje i KV mobilne stanice (npr. Icom IC-7000 serija).
+*   Veća snaga od ručnih stanica (50W).
 
 ## Dodatna oprema
 
-- **Napajanje**: Pretvara 230V AC u 13.8V DC.
-- **SWR Metar**: Mjeri prilagođenost antene.
-- **Antenski Tuner (ATU)**: Prilagođava impedanciju antene uređaju.
-- **Mikrofon / Tipkalo**: Za glasovni ili telegrafski rad.
+*   **Napajanje (Power Supply)**: Pretvara 230V AC u 13.8V DC.
+*   **SWR Metar**: Instrument za mjerenje prilagođenosti antene.
+*   **Antenski Tuner (ATU)**: Uređaj koji prilagođava impedanciju antene uređaju.
+*   **Tipkalo (Key)**: Za telegrafiju (Morseov kod).
