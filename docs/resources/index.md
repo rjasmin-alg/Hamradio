@@ -3,6 +3,7 @@
 Korisni linkovi, alati i softver za radioamatere.
 
 ## Online Alati
+- [**Rječnik (Kratice)**](glossary.md): Objašnjenja pojmova i kratica.
 - **[PSK Reporter](https://pskreporter.info/)**: Karta aktivnosti digitalnih modova u stvarnom vremenu.
 - **[DX Summit](http://www.dxsummit.fi/)**: DX Cluster.
 - **[Reverse Beacon Network (RBN)](http://www.reversebeacon.net/)**: Automatsko praćenje CW/RTTY signala.

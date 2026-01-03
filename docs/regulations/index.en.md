@@ -4,10 +4,10 @@ Here you can find all information related to legal regulations and the process o
 
 ## Content
 
-- **How to become a Ham?**: Information on exams for P and A classes.
-- **Croatian Regulations**: Laws and regulations by HAKOM and HRS.
-- **International Regulations**: CEPT and IARU recommendations.
-- **Call Signs**: Structure and allocation of call signs in Croatia.
+- [**How to become a Ham?**](exams.en.md): Information on exams for P and A classes.
+- [**Croatian Regulations**](croatian_regs.en.md): Laws and regulations by HAKOM and HRS.
+- [**International Regulations**](international_regs.en.md): CEPT and IARU recommendations.
+- [**Call Signs**](callsigns.en.md): Structure and allocation of call signs in Croatia.
 
 ## Useful Documents
 

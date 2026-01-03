@@ -4,9 +4,9 @@ Građanski opseg (CB) je javno dostupna radio usluga koja ne zahtijeva polaganje
 
 ## Sadržaj
 
-- **Uvod u CB**: Povijest i namjena.
-- **Propisi i kanali**: Dozvoljene frekvencije (27 MHz) i snage.
-- **Oprema**: Stanice, antene i pribor.
+- [**Uvod u CB**](intro.md): Povijest i namjena.
+- [**Propisi i kanali**](channels.md): Dozvoljene frekvencije (27 MHz) i snage.
+- [**Oprema**](equipment.md): Stanice, antene i pribor.
 
 ## Tablica Kanala
 

@@ -4,9 +4,9 @@ The technical aspect is the core of amateur radio. Here we cover everything from
 
 ## Content
 
-- **Basics of Electronics**: Resistors, capacitors, inductors, semiconductors.
-- **Antennas and Feedlines**: Dipoles, Yagis, verticals, coaxial cables.
-- **Transceivers and Equipment**: How to choose a radio, accessories.
-- **Safety**: Grounding, lightning protection, RF exposure.
+- [**Basics of Electronics**](electronics.en.md): Resistors, capacitors, inductors, semiconductors.
+- [**Antennas and Feedlines**](antennas.en.md): Dipoles, Yagis, verticals, coaxial cables.
+- [**Transceivers and Equipment**](transceivers.en.md): How to choose a radio, accessories.
+- [**Safety**](safety.en.md): Grounding, lightning protection, RF exposure.
 - **Homebrew (DIY)**: Projects for self-construction.
 - **[Hamnet](hamnet.md)**: High Speed Multimedia network.

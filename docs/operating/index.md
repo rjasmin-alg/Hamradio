@@ -4,8 +4,7 @@ Ovdje ćete naučiti kako zapravo održavati veze, koje frekvencije koristiti i 
 
 ## Sadržaj
 
-- **Frekvencijski planovi**: Raspodjela frekvencija po opsezima.
-- **[Vrste rada (Modovi)](modes.md)**: Detaljan pregled analognih i digitalnih modova.
-- **Procedura veze**: Kako započeti i završiti vezu (QSO).
-- **Q-kodovi i kratice**: Jezik radioamatera.
-- **Dnevnici veza i QSL kartice**: Potvrda održanih veza.
+- [**Frekvencijski planovi**](bandplans.md): Raspodjela frekvencija po opsezima.
+- [**Vrste rada (Modovi)**](modes.md): Detaljan pregled analognih i digitalnih modova.
+- [**Procedura veze (QSO)**](procedures.md): Kako započeti i završiti vezu, Q-kodovi.
+- [**Dnevnici veza i QSL kartice**](logbook.md): Potvrda održanih veza.

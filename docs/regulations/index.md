@@ -4,10 +4,10 @@ Ovdje možete pronaći sve informacije vezane uz zakonsku regulativu i postupak 
 
 ## Sadržaj
 
-- **Kako postati radioamater?**: Informacije o polaganju ispita za P i A razred.
-- **Hrvatski propisi**: Zakoni i pravilnici HAKOM-a i HRS-a.
-- **Međunarodni propisi**: CEPT i IARU preporuke.
-- **Pozivne oznake**: Struktura i dodjela pozivnih oznaka u RH.
+- [**Kako postati radioamater?**](exams.md): Informacije o polaganju ispita za P i A razred.
+- [**Hrvatski propisi**](croatian_regs.md): Zakoni i pravilnici HAKOM-a i HRS-a.
+- [**Međunarodni propisi**](international_regs.md): CEPT i IARU preporuke.
+- [**Pozivne oznake**](callsigns.md): Struktura i dodjela pozivnih oznaka u RH.
 
 ## Korisni dokumenti
 

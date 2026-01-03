@@ -3,6 +3,7 @@
 Useful links, tools, and software for radio amateurs.
 
 ## Online Tools
+- [**Dictionary (Abbreviations)**](glossary.en.md): Explanations of terms and abbreviations.
 - **[PSK Reporter](https://pskreporter.info/)**: Real-time digital mode activity map.
 - **[DX Summit](http://www.dxsummit.fi/)**: DX Cluster.
 - **[Reverse Beacon Network (RBN)](http://www.reversebeacon.net/)**: Automatic CW/RTTY signal monitoring.

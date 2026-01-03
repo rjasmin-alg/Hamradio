@@ -4,9 +4,9 @@ Citizens Band (CB) is a public radio service that does not require a license exa
 
 ## Content
 
-- **Introduction to CB**: History and purpose.
-- **Regulations and Channels**: Allowed frequencies (27 MHz) and power limits.
-- **Equipment**: Radios, antennas, and accessories.
+- [**Introduction to CB**](intro.en.md): History and purpose.
+- [**Regulations and Channels**](channels.en.md): Allowed frequencies (27 MHz) and power limits.
+- [**Equipment**](equipment.en.md): Radios, antennas, and accessories.
 
 ## Channel Table
 

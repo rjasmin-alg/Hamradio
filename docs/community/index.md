@@ -3,6 +3,6 @@
 Radioamaterizam je društveni hobi.
 
 ## Sadržaj
-- **HRS**: Hrvatski radioamaterski savez.
-- **Radioklubovi**: Pronađite klub u svojoj blizini.
-- **YOTA**: Mladi u radioamaterizmu.
+- [**HRS**](associations.md): Hrvatski radioamaterski savez.
+- [**Radioklubovi**](clubs.md): Pronađite klub u svojoj blizini.
+- [**YOTA**](yota.md): Mladi u radioamaterizmu.
