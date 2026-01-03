@@ -1,0 +1,101 @@
+site_name: Radioamaterski Priručnik
+site_url: https://example.com/
+site_description: Sve informacije za radioamatere na jednom mjestu.
+site_author: Jasmin
+
+repo_name: hamsite
+repo_url: https://github.com/Jasmin/hamsite
+
+theme:
+  name: material
+  language: hr
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - toc.follow
+    - search.suggest
+    - search.highlight
+  palette: 
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+plugins:
+  - search
+  - i18n:
+      docs_structure: suffix
+      languages:
+        - locale: hr
+          default: true
+          name: Hrvatski
+          build: true
+        - locale: en
+          name: English
+          build: true
+
+nav:
+  - Početna: index.md
+  - Propisi i Dozvole: 
+    - Uvod: regulations/index.md
+    - Kako postati radioamater?: regulations/exams.md
+    - Hrvatski propisi: regulations/croatian_regs.md
+    - Međunarodni propisi: regulations/international_regs.md
+    - Pozivne oznake: regulations/callsigns.md
+  - Tehnika: 
+    - Uvod: technical/index.md
+    - Osnove elektronike: technical/electronics.md
+    - Antene i vodovi: technical/antennas.md
+    - Primopredajnici: technical/transceivers.md
+    - Sigurnost: technical/safety.md
+    - Hamnet: technical/hamnet.md
+  - Rad na opsegu: 
+    - Uvod: operating/index.md
+    - Frekvencijski planovi: operating/bandplans.md
+    - Modovi: operating/modes.md
+    - Procedura veze: operating/procedures.md
+    - Dnevnici i QSL: operating/logbook.md
+  - CB Radio: 
+    - Uvod: cb/index.md
+    - Uvod u CB: cb/intro.md
+    - Propisi i Kanali: cb/channels.md
+    - Oprema: cb/equipment.md
+  - Aktivnosti: 
+    - Uvod: activities/index.md
+    - Natjecanja: activities/contesting.md
+    - DXing: activities/dxing.md
+    - Rad u pokretu: activities/portable.md
+    - Sateliti: activities/satellites.md
+    - ARG: activities/ardf.md
+  - Krizne situacije: 
+    - Uvod: emcomm/index.md
+    - RMZO: emcomm/rmzo.md
+    - Postupci: emcomm/procedures.md
+    - Winlink: emcomm/winlink.md
+  - Zajednica: 
+    - Uvod: community/index.md
+    - Savezi: community/associations.md
+    - Radioklubovi: community/clubs.md
+    - YOTA: community/yota.md
+  - Resursi: 
+    - Uvod: resources/index.md
+    - Rječnik (Kratice): resources/glossary.md
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - attr_list
+  - md_in_html
