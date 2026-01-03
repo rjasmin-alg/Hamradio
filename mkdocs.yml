@@ -44,7 +44,7 @@ plugins:
           name: English
           build: true
 
-copyright: Copyright &copy; 2024 9A1ZG
+copyright: Copyright &copy; 2026 9A1ZG
 
 nav:
   - Početna: index.md
