@@ -1,0 +1,521 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+    <url>
+        <loc>https://example.com/</loc>
+        <lastmod>2026-01-03</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="hr" href="https://example.com/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://example.com/en/"/>
+    </url>
+    <url>
+        <loc>https://example.com/activities/</loc>
+        <lastmod>2026-01-03</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="hr" href="https://example.com/activities/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://example.com/en/activities/"/>
+    </url>
+    <url>
+        <loc>https://example.com/activities/ardf/</loc>
+        <lastmod>2026-01-03</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="hr" href="https://example.com/activities/ardf/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://example.com/en/activities/ardf/"/>
+    </url>
+    <url>
+        <loc>https://example.com/activities/contesting/</loc>
+        <lastmod>2026-01-03</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="hr" href="https://example.com/activities/contesting/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://example.com/en/activities/contesting/"/>
+    </url>
+    <url>
+        <loc>https://example.com/activities/dxing/</loc>
+        <lastmod>2026-01-03</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="hr" href="https://example.com/activities/dxing/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://example.com/en/activities/dxing/"/>
+    </url>
+    <url>
+        <loc>https://example.com/activities/portable/</loc>
+        <lastmod>2026-01-03</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="hr" href="https://example.com/activities/portable/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://example.com/en/activities/portable/"/>
+    </url>
+    <url>
+        <loc>https://example.com/activities/satellites/</loc>
+        <lastmod>2026-01-03</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="hr" href="https://example.com/activities/satellites/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://example.com/en/activities/satellites/"/>
+    </url>
+    <url>
+        <loc>https://example.com/cb/</loc>
+        <lastmod>2026-01-03</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="hr" href="https://example.com/cb/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://example.com/en/cb/"/>
+    </url>
+    <url>
+        <loc>https://example.com/cb/channels/</loc>
+        <lastmod>2026-01-03</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="hr" href="https://example.com/cb/channels/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://example.com/en/cb/channels/"/>
+    </url>
+    <url>
+        <loc>https://example.com/cb/equipment/</loc>
+        <lastmod>2026-01-03</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="hr" href="https://example.com/cb/equipment/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://example.com/en/cb/equipment/"/>
+    </url>
+    <url>
+        <loc>https://example.com/cb/intro/</loc>
+        <lastmod>2026-01-03</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="hr" href="https://example.com/cb/intro/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://example.com/en/cb/intro/"/>
+    </url>
+    <url>
+        <loc>https://example.com/community/</loc>
+        <lastmod>2026-01-03</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="hr" href="https://example.com/community/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://example.com/en/community/"/>
+    </url>
+    <url>
+        <loc>https://example.com/community/associations/</loc>
+        <lastmod>2026-01-03</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="hr" href="https://example.com/community/associations/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://example.com/en/community/associations/"/>
+    </url>
+    <url>
+        <loc>https://example.com/community/clubs/</loc>
+        <lastmod>2026-01-03</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="hr" href="https://example.com/community/clubs/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://example.com/en/community/clubs/"/>
+    </url>
+    <url>
+        <loc>https://example.com/community/yota/</loc>
+        <lastmod>2026-01-03</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="hr" href="https://example.com/community/yota/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://example.com/en/community/yota/"/>
+    </url>
+    <url>
+        <loc>https://example.com/emcomm/</loc>
+        <lastmod>2026-01-03</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="hr" href="https://example.com/emcomm/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://example.com/en/emcomm/"/>
+    </url>
+    <url>
+        <loc>https://example.com/emcomm/procedures/</loc>
+        <lastmod>2026-01-03</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="hr" href="https://example.com/emcomm/procedures/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://example.com/en/emcomm/procedures/"/>
+    </url>
+    <url>
+        <loc>https://example.com/emcomm/rmzo/</loc>
+        <lastmod>2026-01-03</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="hr" href="https://example.com/emcomm/rmzo/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://example.com/en/emcomm/rmzo/"/>
+    </url>
+    <url>
+        <loc>https://example.com/emcomm/winlink/</loc>
+        <lastmod>2026-01-03</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="hr" href="https://example.com/emcomm/winlink/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://example.com/en/emcomm/winlink/"/>
+    </url>
+    <url>
+        <loc>https://example.com/operating/</loc>
+        <lastmod>2026-01-03</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="hr" href="https://example.com/operating/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://example.com/en/operating/"/>
+    </url>
+    <url>
+        <loc>https://example.com/operating/bandplans/</loc>
+        <lastmod>2026-01-03</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="hr" href="https://example.com/operating/bandplans/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://example.com/en/operating/bandplans/"/>
+    </url>
+    <url>
+        <loc>https://example.com/operating/logbook/</loc>
+        <lastmod>2026-01-03</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="hr" href="https://example.com/operating/logbook/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://example.com/en/operating/logbook/"/>
+    </url>
+    <url>
+        <loc>https://example.com/operating/modes/</loc>
+        <lastmod>2026-01-03</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="hr" href="https://example.com/operating/modes/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://example.com/en/operating/modes/"/>
+    </url>
+    <url>
+        <loc>https://example.com/operating/procedures/</loc>
+        <lastmod>2026-01-03</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="hr" href="https://example.com/operating/procedures/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://example.com/en/operating/procedures/"/>
+    </url>
+    <url>
+        <loc>https://example.com/regulations/</loc>
+        <lastmod>2026-01-03</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="hr" href="https://example.com/regulations/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://example.com/en/regulations/"/>
+    </url>
+    <url>
+        <loc>https://example.com/regulations/callsigns/</loc>
+        <lastmod>2026-01-03</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="hr" href="https://example.com/regulations/callsigns/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://example.com/en/regulations/callsigns/"/>
+    </url>
+    <url>
+        <loc>https://example.com/regulations/croatian_regs/</loc>
+        <lastmod>2026-01-03</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="hr" href="https://example.com/regulations/croatian_regs/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://example.com/en/regulations/croatian_regs/"/>
+    </url>
+    <url>
+        <loc>https://example.com/regulations/exams/</loc>
+        <lastmod>2026-01-03</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="hr" href="https://example.com/regulations/exams/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://example.com/en/regulations/exams/"/>
+    </url>
+    <url>
+        <loc>https://example.com/regulations/international_regs/</loc>
+        <lastmod>2026-01-03</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="hr" href="https://example.com/regulations/international_regs/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://example.com/en/regulations/international_regs/"/>
+    </url>
+    <url>
+        <loc>https://example.com/resources/</loc>
+        <lastmod>2026-01-03</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="hr" href="https://example.com/resources/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://example.com/en/resources/"/>
+    </url>
+    <url>
+        <loc>https://example.com/resources/glossary/</loc>
+        <lastmod>2026-01-03</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="hr" href="https://example.com/resources/glossary/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://example.com/en/resources/glossary/"/>
+    </url>
+    <url>
+        <loc>https://example.com/technical/</loc>
+        <lastmod>2026-01-03</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="hr" href="https://example.com/technical/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://example.com/en/technical/"/>
+    </url>
+    <url>
+        <loc>https://example.com/technical/antennas/</loc>
+        <lastmod>2026-01-03</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="hr" href="https://example.com/technical/antennas/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://example.com/en/technical/antennas/"/>
+    </url>
+    <url>
+        <loc>https://example.com/technical/electronics/</loc>
+        <lastmod>2026-01-03</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="hr" href="https://example.com/technical/electronics/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://example.com/en/technical/electronics/"/>
+    </url>
+    <url>
+        <loc>https://example.com/technical/hamnet/</loc>
+        <lastmod>2026-01-03</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="hr" href="https://example.com/technical/hamnet/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://example.com/en/technical/hamnet/"/>
+    </url>
+    <url>
+        <loc>https://example.com/technical/safety/</loc>
+        <lastmod>2026-01-03</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="hr" href="https://example.com/technical/safety/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://example.com/en/technical/safety/"/>
+    </url>
+    <url>
+        <loc>https://example.com/technical/transceivers/</loc>
+        <lastmod>2026-01-03</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="hr" href="https://example.com/technical/transceivers/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://example.com/en/technical/transceivers/"/>
+    </url>
+    <url>
+        <loc>https://example.com/en/</loc>
+        <lastmod>2026-01-03</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://example.com/en/"/>
+        <xhtml:link rel="alternate" hreflang="hr" href="https://example.com/"/>
+    </url>
+    <url>
+        <loc>https://example.com/en/activities/</loc>
+        <lastmod>2026-01-03</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://example.com/en/activities/"/>
+        <xhtml:link rel="alternate" hreflang="hr" href="https://example.com/activities/"/>
+    </url>
+    <url>
+        <loc>https://example.com/en/activities/ardf/</loc>
+        <lastmod>2026-01-03</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://example.com/en/activities/ardf/"/>
+        <xhtml:link rel="alternate" hreflang="hr" href="https://example.com/activities/ardf/"/>
+    </url>
+    <url>
+        <loc>https://example.com/en/activities/contesting/</loc>
+        <lastmod>2026-01-03</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://example.com/en/activities/contesting/"/>
+        <xhtml:link rel="alternate" hreflang="hr" href="https://example.com/activities/contesting/"/>
+    </url>
+    <url>
+        <loc>https://example.com/en/activities/dxing/</loc>
+        <lastmod>2026-01-03</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://example.com/en/activities/dxing/"/>
+        <xhtml:link rel="alternate" hreflang="hr" href="https://example.com/activities/dxing/"/>
+    </url>
+    <url>
+        <loc>https://example.com/en/activities/portable/</loc>
+        <lastmod>2026-01-03</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://example.com/en/activities/portable/"/>
+        <xhtml:link rel="alternate" hreflang="hr" href="https://example.com/activities/portable/"/>
+    </url>
+    <url>
+        <loc>https://example.com/en/activities/satellites/</loc>
+        <lastmod>2026-01-03</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://example.com/en/activities/satellites/"/>
+        <xhtml:link rel="alternate" hreflang="hr" href="https://example.com/activities/satellites/"/>
+    </url>
+    <url>
+        <loc>https://example.com/en/cb/</loc>
+        <lastmod>2026-01-03</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://example.com/en/cb/"/>
+        <xhtml:link rel="alternate" hreflang="hr" href="https://example.com/cb/"/>
+    </url>
+    <url>
+        <loc>https://example.com/en/cb/channels/</loc>
+        <lastmod>2026-01-03</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://example.com/en/cb/channels/"/>
+        <xhtml:link rel="alternate" hreflang="hr" href="https://example.com/cb/channels/"/>
+    </url>
+    <url>
+        <loc>https://example.com/en/cb/equipment/</loc>
+        <lastmod>2026-01-03</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://example.com/en/cb/equipment/"/>
+        <xhtml:link rel="alternate" hreflang="hr" href="https://example.com/cb/equipment/"/>
+    </url>
+    <url>
+        <loc>https://example.com/en/cb/intro/</loc>
+        <lastmod>2026-01-03</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://example.com/en/cb/intro/"/>
+        <xhtml:link rel="alternate" hreflang="hr" href="https://example.com/cb/intro/"/>
+    </url>
+    <url>
+        <loc>https://example.com/en/community/</loc>
+        <lastmod>2026-01-03</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://example.com/en/community/"/>
+        <xhtml:link rel="alternate" hreflang="hr" href="https://example.com/community/"/>
+    </url>
+    <url>
+        <loc>https://example.com/en/community/associations/</loc>
+        <lastmod>2026-01-03</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://example.com/en/community/associations/"/>
+        <xhtml:link rel="alternate" hreflang="hr" href="https://example.com/community/associations/"/>
+    </url>
+    <url>
+        <loc>https://example.com/en/community/clubs/</loc>
+        <lastmod>2026-01-03</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://example.com/en/community/clubs/"/>
+        <xhtml:link rel="alternate" hreflang="hr" href="https://example.com/community/clubs/"/>
+    </url>
+    <url>
+        <loc>https://example.com/en/community/yota/</loc>
+        <lastmod>2026-01-03</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://example.com/en/community/yota/"/>
+        <xhtml:link rel="alternate" hreflang="hr" href="https://example.com/community/yota/"/>
+    </url>
+    <url>
+        <loc>https://example.com/en/emcomm/</loc>
+        <lastmod>2026-01-03</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://example.com/en/emcomm/"/>
+        <xhtml:link rel="alternate" hreflang="hr" href="https://example.com/emcomm/"/>
+    </url>
+    <url>
+        <loc>https://example.com/en/emcomm/procedures/</loc>
+        <lastmod>2026-01-03</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://example.com/en/emcomm/procedures/"/>
+        <xhtml:link rel="alternate" hreflang="hr" href="https://example.com/emcomm/procedures/"/>
+    </url>
+    <url>
+        <loc>https://example.com/en/emcomm/rmzo/</loc>
+        <lastmod>2026-01-03</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://example.com/en/emcomm/rmzo/"/>
+        <xhtml:link rel="alternate" hreflang="hr" href="https://example.com/emcomm/rmzo/"/>
+    </url>
+    <url>
+        <loc>https://example.com/en/emcomm/winlink/</loc>
+        <lastmod>2026-01-03</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://example.com/en/emcomm/winlink/"/>
+        <xhtml:link rel="alternate" hreflang="hr" href="https://example.com/emcomm/winlink/"/>
+    </url>
+    <url>
+        <loc>https://example.com/en/operating/</loc>
+        <lastmod>2026-01-03</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://example.com/en/operating/"/>
+        <xhtml:link rel="alternate" hreflang="hr" href="https://example.com/operating/"/>
+    </url>
+    <url>
+        <loc>https://example.com/en/operating/bandplans/</loc>
+        <lastmod>2026-01-03</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://example.com/en/operating/bandplans/"/>
+        <xhtml:link rel="alternate" hreflang="hr" href="https://example.com/operating/bandplans/"/>
+    </url>
+    <url>
+        <loc>https://example.com/en/operating/logbook/</loc>
+        <lastmod>2026-01-03</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://example.com/en/operating/logbook/"/>
+        <xhtml:link rel="alternate" hreflang="hr" href="https://example.com/operating/logbook/"/>
+    </url>
+    <url>
+        <loc>https://example.com/en/operating/modes/</loc>
+        <lastmod>2026-01-03</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://example.com/en/operating/modes/"/>
+        <xhtml:link rel="alternate" hreflang="hr" href="https://example.com/operating/modes/"/>
+    </url>
+    <url>
+        <loc>https://example.com/en/operating/procedures/</loc>
+        <lastmod>2026-01-03</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://example.com/en/operating/procedures/"/>
+        <xhtml:link rel="alternate" hreflang="hr" href="https://example.com/operating/procedures/"/>
+    </url>
+    <url>
+        <loc>https://example.com/en/regulations/</loc>
+        <lastmod>2026-01-03</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://example.com/en/regulations/"/>
+        <xhtml:link rel="alternate" hreflang="hr" href="https://example.com/regulations/"/>
+    </url>
+    <url>
+        <loc>https://example.com/en/regulations/callsigns/</loc>
+        <lastmod>2026-01-03</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://example.com/en/regulations/callsigns/"/>
+        <xhtml:link rel="alternate" hreflang="hr" href="https://example.com/regulations/callsigns/"/>
+    </url>
+    <url>
+        <loc>https://example.com/en/regulations/croatian_regs/</loc>
+        <lastmod>2026-01-03</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://example.com/en/regulations/croatian_regs/"/>
+        <xhtml:link rel="alternate" hreflang="hr" href="https://example.com/regulations/croatian_regs/"/>
+    </url>
+    <url>
+        <loc>https://example.com/en/regulations/exams/</loc>
+        <lastmod>2026-01-03</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://example.com/en/regulations/exams/"/>
+        <xhtml:link rel="alternate" hreflang="hr" href="https://example.com/regulations/exams/"/>
+    </url>
+    <url>
+        <loc>https://example.com/en/regulations/international_regs/</loc>
+        <lastmod>2026-01-03</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://example.com/en/regulations/international_regs/"/>
+        <xhtml:link rel="alternate" hreflang="hr" href="https://example.com/regulations/international_regs/"/>
+    </url>
+    <url>
+        <loc>https://example.com/en/resources/</loc>
+        <lastmod>2026-01-03</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://example.com/en/resources/"/>
+        <xhtml:link rel="alternate" hreflang="hr" href="https://example.com/resources/"/>
+    </url>
+    <url>
+        <loc>https://example.com/en/resources/glossary/</loc>
+        <lastmod>2026-01-03</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://example.com/en/resources/glossary/"/>
+        <xhtml:link rel="alternate" hreflang="hr" href="https://example.com/resources/glossary/"/>
+    </url>
+    <url>
+        <loc>https://example.com/en/technical/</loc>
+        <lastmod>2026-01-03</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://example.com/en/technical/"/>
+        <xhtml:link rel="alternate" hreflang="hr" href="https://example.com/technical/"/>
+    </url>
+    <url>
+        <loc>https://example.com/en/technical/antennas/</loc>
+        <lastmod>2026-01-03</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://example.com/en/technical/antennas/"/>
+        <xhtml:link rel="alternate" hreflang="hr" href="https://example.com/technical/antennas/"/>
+    </url>
+    <url>
+        <loc>https://example.com/en/technical/electronics/</loc>
+        <lastmod>2026-01-03</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://example.com/en/technical/electronics/"/>
+        <xhtml:link rel="alternate" hreflang="hr" href="https://example.com/technical/electronics/"/>
+    </url>
+    <url>
+        <loc>https://example.com/en/technical/hamnet/</loc>
+        <lastmod>2026-01-03</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://example.com/en/technical/hamnet/"/>
+        <xhtml:link rel="alternate" hreflang="hr" href="https://example.com/technical/hamnet/"/>
+    </url>
+    <url>
+        <loc>https://example.com/en/technical/safety/</loc>
+        <lastmod>2026-01-03</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://example.com/en/technical/safety/"/>
+        <xhtml:link rel="alternate" hreflang="hr" href="https://example.com/technical/safety/"/>
+    </url>
+    <url>
+        <loc>https://example.com/en/technical/transceivers/</loc>
+        <lastmod>2026-01-03</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://example.com/en/technical/transceivers/"/>
+        <xhtml:link rel="alternate" hreflang="hr" href="https://example.com/technical/transceivers/"/>
+    </url>
+</urlset>
