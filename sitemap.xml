@@ -246,6 +246,13 @@
         <xhtml:link rel="alternate" hreflang="en" href="https://example.com/en/technical/hamnet/"/>
     </url>
     <url>
+        <loc>https://example.com/technical/receivers/</loc>
+        <lastmod>2026-01-03</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="hr" href="https://example.com/technical/receivers/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://example.com/en/technical/receivers/"/>
+    </url>
+    <url>
         <loc>https://example.com/technical/safety/</loc>
         <lastmod>2026-01-03</lastmod>
         <changefreq>daily</changefreq>
@@ -503,6 +510,13 @@
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://example.com/en/technical/hamnet/"/>
         <xhtml:link rel="alternate" hreflang="hr" href="https://example.com/technical/hamnet/"/>
+    </url>
+    <url>
+        <loc>https://example.com/en/technical/receivers/</loc>
+        <lastmod>2026-01-03</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://example.com/en/technical/receivers/"/>
+        <xhtml:link rel="alternate" hreflang="hr" href="https://example.com/technical/receivers/"/>
     </url>
     <url>
         <loc>https://example.com/en/technical/safety/</loc>
