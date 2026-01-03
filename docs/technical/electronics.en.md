@@ -37,3 +37,19 @@ Where:
 ## Power
 $$ P = U \cdot I $$
 - $P$ = Power (Watt)
+
+## Learning Resources
+
+### Circuit Simulators
+Visualization is the best way to learn electronics.
+*   [**Falstad Circuit Simulator**](https://www.falstad.com/circuit/): The best free online simulator. Run it in your browser and watch the current flow.
+*   [**Tinkercad Circuits**](https://www.tinkercad.com/circuits): Great for beginners and Arduino simulations.
+
+### Video Lessons (YouTube)
+*   [**EEVblog (Dave Jones)**](https://www.youtube.com/user/EEVblog): In-depth analysis and teardown videos.
+*   [**W2AEW**](https://www.youtube.com/user/w2aew): Excellent explanations of RF electronics and measurements.
+*   [**The Signal Path**](https://www.youtube.com/user/TheSignalPathBlog): Advanced RF measurements and repairs.
+
+### Articles and Tutorials
+*   [**All About Circuits**](https://www.allaboutcircuits.com/): Free online textbook.
+*   [**Electronics Tutorials**](https://www.electronics-tutorials.ws/): Detailed guides for basic components.

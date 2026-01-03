@@ -37,3 +37,19 @@ Gdje je:
 ## Snaga
 $$ P = U \cdot I $$
 - $P$ = Snaga (Watt)
+
+## Resursi za učenje
+
+### Simulatori krugova
+Vizualizacija je najbolji način učenja elektronike.
+*   [**Falstad Circuit Simulator**](https://www.falstad.com/circuit/): Najbolji besplatni online simulator. Pokrenite ga u pregledniku i gledajte kako struja teče.
+*   [**Tinkercad Circuits**](https://www.tinkercad.com/circuits): Odličan za početnike i Arduino simulacije.
+
+### Video Lekcije (YouTube)
+*   [**EEVblog (Dave Jones)**](https://www.youtube.com/user/EEVblog): Dubinske analize i "teardown" videa.
+*   [**W2AEW**](https://www.youtube.com/user/w2aew): Odlična objašnjenja RF elektronike i mjerenja.
+*   [**The Signal Path**](https://www.youtube.com/user/TheSignalPathBlog): Napredna RF mjerenja i popravci.
+
+### Članci i Tutorijali
+*   [**All About Circuits**](https://www.allaboutcircuits.com/): Besplatan online udžbenik.
+*   [**Electronics Tutorials**](https://www.electronics-tutorials.ws/): Detaljni vodiči za osnovne komponente.

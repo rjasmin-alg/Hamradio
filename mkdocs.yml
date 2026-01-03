@@ -44,6 +44,8 @@ plugins:
           name: English
           build: true
 
+copyright: Copyright &copy; 2024 9A1ZG
+
 nav:
   - Početna: index.md
   - Propisi i Dozvole: 
@@ -56,6 +58,7 @@ nav:
     - Uvod: technical/index.md
     - Osnove elektronike: technical/electronics.md
     - Antene i vodovi: technical/antennas.md
+    - Prijemnici i SDR: technical/receivers.md
     - Primopredajnici: technical/transceivers.md
     - Sigurnost: technical/safety.md
     - Hamnet: technical/hamnet.md

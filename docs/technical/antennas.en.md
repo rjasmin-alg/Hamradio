@@ -31,3 +31,10 @@ Measure of impedance matching between antenna and feedline.
 - **1:1**: Perfect.
 - **up to 1.5:1**: Excellent.
 - **over 2:1**: Tuning required or use of a tuner.
+
+## Antenna Simulators
+Antenna modeling software allows you to "build" an antenna on your computer and see how it will perform before cutting a single wire.
+
+*   [**MMANA-GAL**](http://gal-ana.de/basicmm/en/): Free and powerful tool for modeling wire antennas. A hobby standard.
+*   [**4NEC2**](https://www.qsl.net/4nec2/): More advanced NEC-2 based software for Windows.
+*   [**Dipole Calculator**](https://www.allaboutcircuits.com/tools/dipole-antenna-length-calculator/): Simple online calculator for dipole lengths.

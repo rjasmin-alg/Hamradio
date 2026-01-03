@@ -6,6 +6,7 @@ Tehnički aspekt je srž radioamaterizma. Ovdje obrađujemo sve od osnova elektr
 
 - [**Osnove elektronike**](electronics.md): Otpornici, kondenzatori, zavojnice, poluvodiči.
 - [**Antene i vodovi**](antennas.md): Dipoli, Yagi, vertikalke, koaksijalni kabeli.
+- [**Prijemnici i SDR**](receivers.md): Software Defined Radio, RTL-SDR.
 - [**Primopredajnici i oprema**](transceivers.md): Kako odabrati uređaj, dodatna oprema.
 - [**Sigurnost u radu**](safety.md): Uzemljenje, zaštita od groma, RF zračenje.
 - **Samogradnja (DIY)**: Projekti za samostalnu izradu.

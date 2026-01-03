@@ -31,3 +31,10 @@ Omjer stojnih valova. Mjera prilagođenosti antene i voda.
 - **1:1**: Savršeno.
 - **do 1.5:1**: Odlično.
 - **preko 2:1**: Potrebno ugađanje ili korištenje tunera.
+
+## Simulatori Antena
+Softver za modeliranje antena omogućuje vam da "izgradite" antenu na računalu i vidite kako će raditi prije nego što odrežete ijednu žicu.
+
+*   [**MMANA-GAL**](http://gal-ana.de/basicmm/en/): Besplatan i moćan alat za modeliranje žičanih antena. Standard u hobiju.
+*   [**4NEC2**](https://www.qsl.net/4nec2/): Napredniji NEC-2 bazirani softver za Windows.
+*   [**Dipole Calculator**](https://www.allaboutcircuits.com/tools/dipole-antenna-length-calculator/): Jednostavan online kalkulator za duljine dipola.
