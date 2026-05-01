@@ -10,7 +10,6 @@ RMZO nije samo lista frekvencija — to je **organizacijska struktura** koja def
 
 RMZO djeluje u suradnji s:
 - **HAKOM** — Hrvatska regulatorna agencija za mrežne djelatnosti (dodjeljuje posebne emcomm frekvencije)
-- **DUZS** — Državna uprava za zaštitu i spašavanje (danas djeluje kroz Ravnateljstvo civilne zaštite MUP-a)
 - **HRS** — koordinira i vodi RMZO na nacionalnoj razini
 - **112** — integracija s nacionalnim pozivnim centrom za hitne slučajeve
 
