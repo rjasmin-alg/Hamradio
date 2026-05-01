@@ -2,6 +2,9 @@
 
 Svaka datoteka = jedan modul. Otvorite je, krenite od checkliste, kopirajte prompt.
 
+> [!IMPORTANT]
+> Prije početka rada na bilo kojem modulu, pročitajte **[Strategiju proširenja](STRATEGIJA_PROSIRENJA.md)** za detaljne smjernice o podizanju kvalitete sadržaja.
+
 ## P1 — Val 1 (proširiti postojeće)
 
 | Datoteka | Modul | Završeno |

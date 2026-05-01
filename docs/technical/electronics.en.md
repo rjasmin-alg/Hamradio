@@ -1,99 +1,129 @@
-# Basics of Electronics
+# Electronics Fundamentals
 
-Understanding electronics is fundamental for every radio amateur.
+Understanding electronics is the foundation for every radio amateur. Without knowing the basic components and laws, it's hard to understand why an antenna needs to be a certain length, what 50 Ω impedance means, or how a radio transmits a signal.
 
 ## Basic Components
 
 ### Resistor
-![Resistor](https://upload.wikimedia.org/wikipedia/commons/e/e5/Resistors-photo.jpg)
+Limits the flow of electric current. Think of it as a narrowing in a water pipe.
 
-Limits the flow of electric current. Think of it as a narrowing in a pipe through which water flows.
-
-*   **Unit**: Ohm ($\Omega$)
-*   **Symbol**: $R$
-*   **Usage**: Voltage adjustment, current limiting for LEDs.
-*   [**Video: How Resistors Work (Engineering Mindset)**](https://www.youtube.com/results?search_query=how+resistors+work+engineering+mindset)
-
----
+*   **Unit**: Ohm ($\Omega$), Symbol: $R$
+*   **Uses**: Voltage division, LED current limiting, pull-up/pull-down
 
 ### Capacitor
-![Capacitor](https://upload.wikimedia.org/wikipedia/commons/b/b9/Capacitors_%287189597135%29.jpg)
+Stores electrical energy in an electric field between two plates.
 
-Stores electrical energy in an electric field. Works like a small battery that can charge and discharge very quickly.
-
-*   **Unit**: Farad ($F$) - in practice $\mu F$, $nF$, $pF$ are used.
-*   **Symbol**: $C$
-*   **Usage**: Voltage filtering (smoothing), resonant circuits, blocking DC current.
-*   [**Video: How Capacitors Work**](https://www.youtube.com/results?search_query=how+capacitors+work+engineering+mindset)
-
----
+*   **Unit**: Farad ($F$), typically $\mu F$, $nF$, $pF$. Symbol: $C$
+*   **Uses**: Filtering, DC blocking, tuned circuits
 
 ### Inductor
-![Inductor](https://upload.wikimedia.org/wikipedia/commons/9/94/Inductor_coils.jpg)
+Stores energy in a magnetic field. Opposes changes in current.
 
-Stores energy in a magnetic field. Opposes any change in current.
-
-*   **Unit**: Henry ($H$) - usually $\mu H$, $mH$.
-*   **Symbol**: $L$
-*   **Usage**: Resonant circuits, chokes (blocking HF signals), transformers.
-*   [**Video: How Inductors Work**](https://www.youtube.com/results?search_query=how+inductors+work+engineering+mindset)
-
----
+*   **Unit**: Henry ($H$), typically $\mu H$, $mH$. Symbol: $L$
+*   **Uses**: RF chokes, filters, transformers, baluns
 
 ### Semiconductors
 
-#### Diode
-![Diode](https://upload.wikimedia.org/wikipedia/commons/c/cc/Diode-closeup.jpg)
+**Diode** — One-way valve for current. Conducts only from anode to cathode.
 
-Electronic check valve. Allows current to flow in only one direction.
+**Zener Diode** — Conducts in reverse above a specific "Zener voltage". Used for voltage regulation.
 
-*   **Symbol**: $D$
-*   **Usage**: Rectifying AC to DC (rectifiers), signal detection.
-*   [**Video: How Diodes Work**](https://www.youtube.com/results?search_query=how+diodes+work+engineering+mindset)
+**BJT Transistor** — Current-controlled amplifier/switch with Base, Collector, Emitter leads. Gain factor: $\beta$ (hFE).
 
-#### Transistor
-![Transistor](https://upload.wikimedia.org/wikipedia/commons/2/23/Transistors-white.jpg)
-
-Active component that can amplify signals or act as an electronic switch. The foundation of all modern devices.
-
-*   **Types**: Bipolar (BJT), Unipolar (FET, MOSFET).
-*   **Symbol**: $Q$ or $TR$
-*   **Usage**: Amplifiers, oscillators, switches.
-*   [**Video: How Transistors Work**](https://www.youtube.com/results?search_query=how+transistors+work+engineering+mindset)
+**MOSFET** — Voltage-controlled switch/amplifier with Gate, Drain, Source leads. Nearly all modern RF power amplifiers use RF MOSFETs.
 
 ---
 
 ## Ohm's Law
 
-The fundamental law of electrical engineering describing the relationship between voltage, current, and resistance.
-
 $$ I = \frac{U}{R} $$
 
-Where:
-*   $I$ = Current (Ampere - $A$)
-*   $U$ = Voltage (Volt - $V$)
-*   $R$ = Resistance (Ohm - $\Omega$)
-
-## Power
-
-$$ P = U \cdot I $$
-
-*   $P$ = Power (Watt - $W$)
+**Power:**
+$$ P = U \cdot I = I^2 \cdot R = \frac{U^2}{R} $$
 
 ---
 
-## Learning Resources
+## Series and Parallel Circuits
 
-### Circuit Simulators
-Visualization is the best way to learn electronics.
-*   [**Falstad Circuit Simulator**](https://www.falstad.com/circuit/): The best free online simulator. Run it in your browser and watch the current flow.
-*   [**Tinkercad Circuits**](https://www.tinkercad.com/circuits): Great for beginners and Arduino simulations.
+**Resistors in series:** $R_{total} = R_1 + R_2 + \ldots$
 
-### Video Lessons (YouTube)
-*   [**EEVblog (Dave Jones)**](https://www.youtube.com/user/EEVblog): In-depth analysis and teardown videos.
-*   [**W2AEW**](https://www.youtube.com/user/w2aew): Excellent explanations of RF electronics and measurements.
-*   [**The Signal Path**](https://www.youtube.com/user/TheSignalPathBlog): Advanced RF measurements and repairs.
+**Resistors in parallel:** $\frac{1}{R_{total}} = \frac{1}{R_1} + \frac{1}{R_2} + \ldots$
 
-### Articles and Tutorials
-*   [**All About Circuits**](https://www.allaboutcircuits.com/): Free online textbook.
-*   [**Electronics Tutorials**](https://www.electronics-tutorials.ws/): Detailed guides for basic components.
+**Capacitors** work in reverse: they add in parallel, divide in series.
+
+---
+
+## AC vs DC
+
+**DC** = electrons flow in one direction (batteries, power supplies).  
+**AC** = electrons alternate direction sinusoidally (mains power, RF signals).
+
+| Parameter | Description | Formula |
+|-----------|-------------|---------|
+| Frequency ($f$) | Cycles per second (Hz) | $f = 1/T$ |
+| Period ($T$) | Duration of one cycle | $T = 1/f$ |
+| RMS Voltage | Effective value equivalent to DC heating | $U_{RMS} = U_{peak}/\sqrt{2}$ |
+
+---
+
+## Reactance and Impedance
+
+**Capacitive reactance** (opposes low frequencies, passes high):
+$$ X_C = \frac{1}{2\pi f C} $$
+
+**Inductive reactance** (opposes high frequencies, passes low):
+$$ X_L = 2\pi f L $$
+
+**Impedance** (total AC opposition):
+$$ Z = R + jX \quad \Rightarrow \quad |Z| = \sqrt{R^2 + X^2} $$
+
+The 50 Ω standard in amateur radio is a compromise that minimises cable losses while maximising power transfer.
+
+---
+
+## LC Resonant Circuit
+
+When $X_L = X_C$, the circuit resonates. Thomson's formula:
+
+$$ f_r = \frac{1}{2\pi\sqrt{LC}} $$
+
+**Q factor** — sharpness of resonance:
+$$ Q = \frac{f_r}{\Delta f} = \frac{X_L}{R} $$
+
+Higher Q = narrower bandwidth = more selective filter.
+
+---
+
+## Transformers
+
+$$ \frac{U_1}{U_2} = \frac{N_1}{N_2} \qquad U_1 I_1 = U_2 I_2 $$
+
+RF transformers (balun/unun) convert between balanced and unbalanced lines. Essential for antennas — see [Antennas](antennas.md).
+
+---
+
+## Resistor Colour Code
+
+| Colour | Digit | Multiplier | Tolerance |
+|--------|-------|-----------|-----------|
+| Black | 0 | ×1 | — |
+| Brown | 1 | ×10 | ±1% |
+| Red | 2 | ×100 | ±2% |
+| Orange | 3 | ×1k | — |
+| Yellow | 4 | ×10k | — |
+| Green | 5 | ×100k | ±0.5% |
+| Blue | 6 | ×1M | ±0.25% |
+| Violet | 7 | ×10M | ±0.1% |
+| Grey | 8 | ×100M | ±0.05% |
+| White | 9 | — | — |
+| Gold | — | ×0.1 | ±5% |
+| Silver | — | ×0.01 | ±10% |
+
+---
+
+## Related Topics
+
+*   [Antennas and Feedlines](antennas.en.md)
+*   [Modulation and Demodulation](modulation.en.md)
+*   [Safety](safety.en.md)
+*   [Grounding](grounding.en.md)

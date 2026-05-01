@@ -51,22 +51,31 @@ nav:
   - Propisi i Dozvole: 
     - Uvod: regulations/index.md
     - Kako postati radioamater?: regulations/exams.md
+    - Razredi dozvola: regulations/license_classes.md
     - Hrvatski propisi: regulations/croatian_regs.md
     - Međunarodni propisi: regulations/international_regs.md
     - Pozivne oznake: regulations/callsigns.md
+    - Etika i ponašanje: regulations/ethics.md
   - Tehnika: 
     - Uvod: technical/index.md
     - Osnove elektronike: technical/electronics.md
     - Antene i vodovi: technical/antennas.md
+    - Propagacija: technical/propagation.md
+    - Modulacija: technical/modulation.md
     - Prijemnici i SDR: technical/receivers.md
     - Primopredajnici: technical/transceivers.md
     - Sigurnost: technical/safety.md
+    - Uzemljenje i zaštita od groma: technical/grounding.md
     - Hamnet: technical/hamnet.md
   - Rad na opsegu: 
     - Uvod: operating/index.md
     - Frekvencijski planovi: operating/bandplans.md
     - Modovi: operating/modes.md
     - Procedura veze: operating/procedures.md
+    - FT8 Praktični vodič: operating/ft8_guide.md
+    - Učenje telegrafije (CW): operating/cw_learning.md
+    - Repetitori i linkovi: operating/repeaters.md
+    - Tvoja prva veza: operating/first_qso.md
     - Dnevnici i QSL: operating/logbook.md
   - CB Radio: 
     - Uvod: cb/index.md
@@ -92,6 +101,9 @@ nav:
     - YOTA: community/yota.md
   - Resursi: 
     - Uvod: resources/index.md
+    - Softver: resources/software.md
+    - NATO fonetska abeceda: resources/phonetic_alphabet.md
+    - Priprema za ispit: resources/exam_prep.md
     - Rječnik (Kratice): resources/glossary.md
 
 markdown_extensions:

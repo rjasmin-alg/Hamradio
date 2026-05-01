@@ -1,51 +1,53 @@
-# Antennas and Feedlines
+# Antennas & Feedlines
 
-The antenna is the most important part of any radio station. A bad antenna on an expensive radio performs worse than a good antenna on a cheap radio.
+An antenna dictates the true nature of propagation. Placing an awful stick upon a thousand dollar transceiver easily underperforms deploying a masterfully designed aerial loop fixed upon a cheap radio station. 
 
-## Antenna Types
+## Structural Aerial Varieties
 
-### Dipole
-![Dipole Antenna](https://upload.wikimedia.org/wikipedia/commons/2/2f/Dipole_antenna.png)
+### Dipole (Center-Fed)
+Simplest wire iteration utilizing sheer symmetrical radiation efficiency.
+*   Normally spanning lengths of EXACTLY $\lambda/2$ (half-wavelength rules) of the required operational frequency scope.
+*   Cutting at exactly the mid-point splits elements symmetrically injecting feeds via Baluns.
 
-The simplest and very efficient antenna.
-*   Consists of two wires with a total length of $\lambda/2$ (half wavelength).
-*   Example for 20m (14 MHz): Total length about 10m.
-*   [**Video: How Dipole Antenna Works**](https://www.youtube.com/results?search_query=how+dipole+antenna+works+radiation+pattern)
+### Yagi-Uda (Beam Director)
+A highly directed aluminum arrow focusing all radio-electric emissions straightforward acting similarly to flashlight lenses ignoring backside strays.
+*   Embraces a dipole element flanked actively utilizing a backing reflector pushing the element outwards via forward Directors.
 
-### Yagi-Uda (Beam)
-![Yagi Antenna](https://upload.wikimedia.org/wikipedia/commons/0/05/Yagi-uda_antenna.svg)
+### Ground Plane Verticals
+Operating flawlessly upon omnidirectional requirements (sweeping fully around 360 orientations).
+*   Typically necessitates heavy implementation of grounding counter-poises "Radials".
 
-Directional antenna that amplifies the signal in one direction.
-*   Consists of a dipole (driven element), reflector, and directors.
-*   Used for DX work as it "focuses" energy (like a lens for light).
-*   [**Video: How Yagi Antenna Works**](https://www.youtube.com/results?search_query=how+yagi+antenna+works)
+## Emission Polarization
 
-### Vertical (Ground Plane)
-![Ground Plane Antenna](https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Ground_plane_antenna_diagram.svg/320px-Ground_plane_antenna_diagram.svg.png)
+Matching operational lines correctly maintains stability averting heavy $20+$ dB power drops.
+Shooting a **horizontal** line while a receiver expects a **vertical** intercept yields dead connections. Therefore mobile operators fixant solely upon verticals whereas massive HF DX deployments align mostly horizontal bounds ignoring ambient noise pickups!
 
-Omnidirectional antenna (radiates in all directions).
-*   Good for local contacts (VHF/UHF) and DX on lower frequencies if it has a good ground system (radials).
-*   [**Video: Ground Plane Principle**](https://www.youtube.com/results?search_query=ground+plane+antenna+explained)
+### Gain Expectations
 
-## Feedlines
+Always note: Antennas **DO NOT produce internal free powers nor amplify signals**. Gain strictly specifies that power diverted via shape lenses towards exclusive points inherently starves rear paths!
+*   **dBi**: Theoretical sphere (falsely inflating marketing scopes).
+*   **dBd**: Real gain measured physically opposed to a raw classic dipole shape. ($0 \text{ dBd} = 2.15 \text{ dBi}$)
 
-### Coaxial Cable
-![Coaxial Cable](https://upload.wikimedia.org/wikipedia/commons/f/f6/CoaxialCable.jpg)
+### Standing Wave Ratios (SWR) Mismatches
+Pushing 50 Ohm ($50 \Omega$) limits represents absolute stability. Generating incorrectly adjusted un-resonant antennas drastically forces output paths crashing out, repelling heavily sending dangerous thermal blasts straight inwardly backwards down to transceiver bounds marking a bad Standing Wave Ratio exceeding `2:1` margins!
 
-The most commonly used feedline.
-*   **RG-58**: Thin, for shorter runs and lower power.
-*   **RG-213**: Thicker, lower loss, for higher power.
-*   **Impedance**: Standard is 50 $\Omega$.
+## Specialized Space Constraints & Stealth Loops
 
-### SWR (Standing Wave Ratio)
-Measure of impedance matching between antenna and feedline.
-*   **1:1**: Perfect.
-*   **up to 1.5:1**: Excellent.
-*   **over 2:1**: Tuning required or use of a tuner.
+If lacking acres of territory these specific types allow urban apartments deployments:
+1. **End-Fed Half Waves (EFHW):** Driving wires attaching solely using one extreme baseline without demanding center feed breaks natively pushing insane impedances exceeding 2000$\Omega$, relying entirely upon heavy impedance 49:1 massive Unun structures.
+2. **QUAD serial Loops:** Circular/rectangled wire elements highly resistive targeting hostile noisy atmospheric rains!
+3. **Small Magnetic Transmitting Loops:** Heavy copper circle employing a capacitor allowing incredibly short but ultra-filtered low-noise results natively!
+4. **J-Poles (Slim Jims):** Bent tubular J structures ideal replacing missing ground-radial planes yielding fantastic gain values upon small balconies hitting UHF and VHF requirements transparently! 
 
-## Antenna Simulators
-Antenna modeling software allows you to "build" an antenna on your computer and see how it will perform before cutting a single wire.
+## Balanced versus Unbalanced Feedpoints (Baluns)
+Hooking an unbalanced tube line (a Coaxial output shielding mechanism) straight pushing into an exact symmetrical half dipole structure breaks its symmetry creating stray currents flowing backwards upon outer shields!
+Using **Bal**anced-to-**un**balanced transformational ring cores (Balun systems) or asymmetrical Ununs dictates the safe flow resolving mismatch impedances.
 
-*   [**MMANA-GAL**](http://gal-ana.de/basicmm/en/): Free and powerful tool for modeling wire antennas. A hobby standard.
-*   [**4NEC2**](https://www.qsl.net/4nec2/): More advanced NEC-2 based software for Windows.
-*   [**Dipole Calculator**](https://www.allaboutcircuits.com/tools/dipole-antenna-length-calculator/): Simple online calculator for dipole lengths.
+| Reliable Cable Types | Attenuation Drop (Measured 100m lines) running at 50 MHz | VHF Drops on 144 MHz | Extreme 432 MHz Losses | 
+|----------------------|---------------------------------------|---------------------|----------------------------|
+| Standard raw RG-58 | Colossal 10 dB deficit losses! | Yields a tragic ~18.5 dB power wipe!| Horrific 35 decibels; practically blocking transmission!|  
+| Stronger Thicker RG-213 | Sustainable 4.5 dB drops. | Manageable 8.8 dB transmission falloff | Signals dwindle noticeably past 16dB losses. |
+| Specialized LMR-400 | Minuscule ~ 2.8 dB losses.. | Pristine 4.8 dB retention allowing top power!| Notable but totally workable drops. Excellent build grade!|
+
+!!! tip "Connectors"
+    For anything upon HF and VHF simply stick heavily attaching raw PL259 UHF caps. Extremely tough and cheap avoiding water leaks efficiently compared natively utilizing precise tiny BNC structures.

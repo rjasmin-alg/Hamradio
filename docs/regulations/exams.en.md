@@ -1,34 +1,61 @@
-# How to Become a Ham?
+# How to become a Radio Amateur?
 
-The path to an amateur radio license involves passing an examination. In Croatia, there are two classes of amateur radio operators: **P** (Entry Level) and **A** (Advanced).
+The path to an amateur radio license is achieved through a professional exam before regulatory bodies or authorized associations or local clubs. The license guarantees that you respect the foundations of communications and don't mistakenly operate on military or emergency service reserved bounds.
 
-## Amateur Radio Classes
+## Amateur Radio License Classes
 
-### Class P (Entry Level)
-This is the entry point into the world of amateur radio.
-- **Privileges**: Operation on all amateur frequency bands, but with limited power (up to 100W on HF, up to 50W on VHF/UHF).
-- **Exam**: Simpler, focused on the basics of regulations, technical topics, and operating procedures.
-- **Recommendation**: Ideal for beginners who want to get on the air quickly.
+| Class | Full Name | Frequencies (Privileges) | Max Power | Usage |
+|--------|------------|---------------------------|-----------|---------|
+| **N** (Novice Nat) | National Initial License | Narrow VHF/UHF only. | up to 10W | Handheld local FM usage. |
+| **B** (Beginner / P)| CEPT Novice License | All bands within specified bounds. | up to 100W | Excellent start for HF work, ideal for most hobbyists. |
+| **A** (Advanced) | CEPT HAREC | Absolute access to **all** amateur bands strictly by bandplan | up to 1500W | Full freedom to build amplifiers and international traveling portability. |
 
-### Class A (Advanced)
-Full amateur radio privileges.
-- **Privileges**: Operation with maximum legal power (up to 1.5 kW in some cases) and access to all international privileges (CEPT HAREC).
-- **Exam**: More comprehensive, includes deeper knowledge of electronics and radio theory.
-- **Recommendation**: For those who want to utilize the full potential of the hobby.
+## Who can take the exam (Prerequisites)
+The test is open to virtually anyone; age boundaries go as low as 12 in many countries emphasizing youth integrations in STEM subjects. No engineering college records are required, merely the will to learn radio waves.
 
-## Examination Process
+## How and Where to Apply
+- **Preparation**: Find your closest local radio-club. They organize group study courses running bi-annually.
+- **Books**: Access manuals locally or via web platforms connected to the National IARU associated body.
+- **Exam day**: Takes place locally or at the national telecommunication headquarters as written Multiple-choice exams.
 
-1.  **Preparation**:
-    *   Find the nearest radio club ([Club List](../community/index.en.md)). Clubs often organize courses.
-    *   Download manuals and question pools from the [HRS website](https://www.hamradio.hr/).
-2.  **Application**:
-    *   Exams are organized in radio clubs or directly at the HRS.
-3.  **The Exam**:
-    *   Consists of a written part (test). There is no longer a practical part (Morse code is not mandatory).
+## What is the exam actually like?
+- **Total Questions**: Varies between 30 (Novice/Beginner) to 45 (HAREC/A-class).
+- **Time**: 45 to 60 minutes.
+- **Passing Grade:** A substantial **60-70%** accuracy is necessary. Regulatory law topics usually mandate 100% correct answering due to safety reasons.
+- **Format**: Strictly written Multiple-Choice. Morse code is NO LONGER mandatory in Europe.
 
-## After the Exam
+### Core Exam Topics
+1. **Technique and Electronics** – Circuits, ohm's law, filters.
+2. **Operations on the band** – Q-codes, procedure, conventions.
+3. **Safety and EMF** – High voltage danger, exposure limits, grounding.
+4. **Relevant Regional Regulations (Laws)** – Allowances, agency limits.
 
-After successfully passing the exam, you receive an **Examination Certificate**. With this, you apply to HAKOM for a **License to use RF spectrum** and the allocation of a **call sign**.
+## International Comparison 
 
-!!! tip "Tip"
-    The best way to learn is with a mentor in a radio club. Practical experience is invaluable!
+=== "USA"
+    - **Technician**: Local ops, mostly VHF/UHF FM repeaters.
+    - **General**: Main HF capability and DX access. CEPT Novice-ish.
+    - **Amateur Extra**: Full privileges, elite frequencies, HAREC equivalent.
+
+=== "UK"
+    - **Foundation**: Getting started. 10W limits.
+    - **Intermediate**: 50W, constructing and altering equipment.
+    - **Full Licence**: Unrestricted power outputs and full HAREC privileges.
+
+=== "Germany (DE)"
+    - **Klasse E**: Entry German class, equivalent to Novice across EU.
+    - **Klasse A**: HAREC equivalent with full Kilowatt outputs.
+
+## Frequently Asked Questions (FAQ)
+
+**1. Is Morse code knowledge mandatory?**
+No. The CW code test was phased out in the early 2000s globally. 
+
+**2. Can I pass the electronics bit without a degree?**
+Absolutely. The level requested relies on simple Physics logic and applying Ohm's Law ($R = U / I$).
+
+**3. Do I start at the bottom or can I jump to Class A directly?**
+If you have the knowledge and your regional agency permits, yes, you can skip to Class A.
+
+!!! warning "Do not transmit without the clearance papers!"
+    Using PTT (hitting the mic) without receiving the official operator license and station ID registration holds very high fiscal penalties. Agencies use triangulated sweeps via radio direction finders to sniff illegally broadcasted activity.
