@@ -1,0 +1,3321 @@
+
+<!doctype html>
+<html lang="hr" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Sve informacije za radioamatere na jednom mjestu.">
+      
+      
+        <meta name="author" content="Jasmin">
+      
+      
+        <link rel="canonical" href="https://example.com/technical/grounding/">
+      
+      
+        <link rel="prev" href="../safety/">
+      
+      
+        <link rel="next" href="../hamnet/">
+      
+      
+        
+          <link rel="alternate" href="./" hreflang="hr">
+        
+          <link rel="alternate" href="../../en/technical/grounding/" hreflang="en">
+        
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.6">
+    
+    
+      
+        <title>Uzemljenje i zaštita od groma - Radioamaterski Priručnik</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.484c7ddc.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#uzemljenje-i-zastita-od-groma" class="md-skip">
+          Preskoči na sadržaj
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Zaglavlje">
+    <a href="../.." title="Radioamaterski Priručnik" class="md-header__button md-logo" aria-label="Radioamaterski Priručnik" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Radioamaterski Priručnik
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Uzemljenje i zaštita od groma
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+      <div class="md-header__option">
+  <div class="md-select">
+    
+    <button class="md-header__button md-icon" aria-label="Odabir jezika">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m12.87 15.07-2.54-2.51.03-.03A17.5 17.5 0 0 0 14.07 6H17V4h-7V2H8v2H1v2h11.17C11.5 7.92 10.44 9.75 9 11.35 8.07 10.32 7.3 9.19 6.69 8h-2c.73 1.63 1.73 3.17 2.98 4.56l-5.09 5.02L4 19l5-5 3.11 3.11zM18.5 10h-2L12 22h2l1.12-3h4.75L21 22h2zm-2.62 7 1.62-4.33L19.12 17z"/></svg>
+    </button>
+    <div class="md-select__inner">
+      <ul class="md-select__list">
+        
+          <li class="md-select__item">
+            <a href="./" hreflang="hr" class="md-select__link">
+              Hrvatski
+            </a>
+          </li>
+        
+          <li class="md-select__item">
+            <a href="../../en/technical/grounding/" hreflang="en" class="md-select__link">
+              English
+            </a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+</div>
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Pretraži" placeholder="Pretraži" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Pretraživanje">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Očisti" aria-label="Očisti" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Inicijaliziranje pretraživanja
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/Jasmin/hamsite" title="Idi u repozitorij" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    hamsite
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Kartice" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../.." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Početna
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../regulations/" class="md-tabs__link">
+          
+  
+  
+  Propisi i Dozvole
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../" class="md-tabs__link">
+          
+  
+  
+  Tehnika
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../operating/" class="md-tabs__link">
+          
+  
+  
+  Rad na opsegu
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../cb/" class="md-tabs__link">
+          
+  
+  
+  CB Radio
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../activities/" class="md-tabs__link">
+          
+  
+  
+  Aktivnosti
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../emcomm/" class="md-tabs__link">
+          
+  
+  
+  Krizne situacije
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../community/" class="md-tabs__link">
+          
+  
+  
+  Zajednica
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../resources/" class="md-tabs__link">
+          
+  
+  
+  Resursi
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigacija" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Radioamaterski Priručnik" class="md-nav__button md-logo" aria-label="Radioamaterski Priručnik" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Radioamaterski Priručnik
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/Jasmin/hamsite" title="Idi u repozitorij" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    hamsite
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Početna
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Propisi i Dozvole
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Propisi i Dozvole
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../regulations/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Uvod
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../regulations/exams/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Kako postati radioamater?
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../regulations/license_classes/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Razredi dozvola
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../regulations/croatian_regs/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Hrvatski propisi
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../regulations/international_regs/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Međunarodni propisi
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../regulations/callsigns/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Pozivne oznake
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../regulations/ethics/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Etika i ponašanje
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Tehnika
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Tehnika
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Uvod
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../electronics/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Osnove elektronike
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../antennas/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Antene i vodovi
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../propagation/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Propagacija
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../modulation/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Modulacija
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../receivers/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Prijemnici i SDR
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../transceivers/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Primopredajnici
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../safety/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Sigurnost
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Uzemljenje i zaštita od groma
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Uzemljenje i zaštita od groma
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Sadržaj">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Sadržaj
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#tri-vrste-uzemljenja" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Tri vrste uzemljenja
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Tri vrste uzemljenja">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-rf-uzemljenje" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. RF uzemljenje
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-sigurnosno-zastitno-uzemljenje" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Sigurnosno (zaštitno) uzemljenje
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-gromobransko-uzemljenje" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. Gromobransko uzemljenje
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#single-point-ground-spg-kljucni-koncept" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Single Point Ground (SPG) — ključni koncept
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Single Point Ground (SPG) — ključni koncept">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#zasto-spg" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Zašto SPG?
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#zemne-petlje-ground-loops-najveci-neprijatelj" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Zemne petlje (Ground Loops) — najveći neprijatelj
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#radijali-rf-uzemljenje-vertikalnih-antena" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Radijali — RF uzemljenje vertikalnih antena
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Radijali — RF uzemljenje vertikalnih antena">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#koliko-radijala" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Koliko radijala?
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#duljina-radijala" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Duljina radijala
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#counterpoise" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Counterpoise
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#zastita-od-groma-sustav-odvodnika" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Zaštita od groma — sustav odvodnika
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Zaštita od groma — sustav odvodnika">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#vrste-odvodnika" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Vrste odvodnika
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pozicija-montaze-odvodnika" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Pozicija montaže odvodnika
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#staticki-elektricitet" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Statički elektricitet
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#prakticni-vodic-postavljanje-spg-sustava" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Praktični vodič: Postavljanje SPG sustava
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Praktični vodič: Postavljanje SPG sustava">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#materijali" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Materijali
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#korak-po-korak" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Korak po korak
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ceste-greske-i-rjesenja" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Česte greške i rješenja
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#resursi" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Resursi
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#povezane-teme" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Povezane teme
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../hamnet/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Hamnet
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Rad na opsegu
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Rad na opsegu
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../operating/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Uvod
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../operating/bandplans/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Frekvencijski planovi
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../operating/modes/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Modovi
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../operating/procedures/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Procedura veze
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../operating/ft8_guide/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    FT8 Praktični vodič
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../operating/cw_learning/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Učenje telegrafije (CW)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../operating/repeaters/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Repetitori i linkovi
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../operating/first_qso/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Tvoja prva veza
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../operating/logbook/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Dnevnici i QSL
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    CB Radio
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    CB Radio
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../cb/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Uvod
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../cb/intro/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Uvod u CB
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../cb/channels/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Propisi i Kanali
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../cb/equipment/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Oprema
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Aktivnosti
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Aktivnosti
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../activities/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Uvod
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../activities/contesting/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Natjecanja
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../activities/dxing/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    DXing
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../activities/portable/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Rad u pokretu
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../activities/satellites/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Sateliti
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../activities/ardf/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    ARG
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_7" >
+        
+          
+          <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Krizne situacije
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Krizne situacije
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../emcomm/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Uvod
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../emcomm/rmzo/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    RMZO
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../emcomm/procedures/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Postupci
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../emcomm/winlink/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Winlink
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_8" >
+        
+          
+          <label class="md-nav__link" for="__nav_8" id="__nav_8_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Zajednica
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Zajednica
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../community/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Uvod
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../community/associations/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Savezi
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../community/clubs/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Radioklubovi
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../community/yota/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    YOTA
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_9" >
+        
+          
+          <label class="md-nav__link" for="__nav_9" id="__nav_9_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Resursi
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_9_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_9">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Resursi
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../resources/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Uvod
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../resources/software/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Softver
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../resources/phonetic_alphabet/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    NATO fonetska abeceda
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../resources/exam_prep/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Priprema za ispit
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../resources/glossary/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Rječnik (Kratice)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Sadržaj">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Sadržaj
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#tri-vrste-uzemljenja" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Tri vrste uzemljenja
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Tri vrste uzemljenja">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-rf-uzemljenje" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. RF uzemljenje
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-sigurnosno-zastitno-uzemljenje" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Sigurnosno (zaštitno) uzemljenje
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-gromobransko-uzemljenje" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. Gromobransko uzemljenje
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#single-point-ground-spg-kljucni-koncept" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Single Point Ground (SPG) — ključni koncept
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Single Point Ground (SPG) — ključni koncept">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#zasto-spg" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Zašto SPG?
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#zemne-petlje-ground-loops-najveci-neprijatelj" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Zemne petlje (Ground Loops) — najveći neprijatelj
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#radijali-rf-uzemljenje-vertikalnih-antena" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Radijali — RF uzemljenje vertikalnih antena
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Radijali — RF uzemljenje vertikalnih antena">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#koliko-radijala" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Koliko radijala?
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#duljina-radijala" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Duljina radijala
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#counterpoise" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Counterpoise
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#zastita-od-groma-sustav-odvodnika" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Zaštita od groma — sustav odvodnika
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Zaštita od groma — sustav odvodnika">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#vrste-odvodnika" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Vrste odvodnika
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pozicija-montaze-odvodnika" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Pozicija montaže odvodnika
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#staticki-elektricitet" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Statički elektricitet
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#prakticni-vodic-postavljanje-spg-sustava" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Praktični vodič: Postavljanje SPG sustava
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Praktični vodič: Postavljanje SPG sustava">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#materijali" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Materijali
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#korak-po-korak" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Korak po korak
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ceste-greske-i-rjesenja" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Česte greške i rješenja
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#resursi" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Resursi
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#povezane-teme" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Povezane teme
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+  
+
+
+<h1 id="uzemljenje-i-zastita-od-groma">Uzemljenje i zaštita od groma</h1>
+<p>Uzemljenje je jedna od tema koje izazivaju najveću zabunu u radioamaterskim krugovima — zato što <strong>postoje tri potpuno različite vrste uzemljenja</strong> s različitim svrhama, i njihovo miješanje uzrokuje probleme od zujanja do požara.</p>
+<div class="admonition danger">
+<p class="admonition-title">Tri različita uzemljenja</p>
+<p>RF uzemljenje, sigurnosno uzemljenje i gromobransko uzemljenje su <strong>tri neovisna koncepta</strong>. Svaki ima drugačiju svrhu i drugačiju izvedbu. Pogrešno miješanje može biti opasno.</p>
+</div>
+<hr />
+<h2 id="tri-vrste-uzemljenja">Tri vrste uzemljenja</h2>
+<h3 id="1-rf-uzemljenje">1. RF uzemljenje</h3>
+<p><strong>Svrha</strong>: Pruža referentni potencijal (masu) za RF signale — posebno važno za asimetrične antene (vertikale, end-fed).</p>
+<p><strong>Princip</strong>: Struja RF signala teče iz antene, kroz uređaj, i mora se "vratiti" negdje. Bez RF uzemljenja, struja se vraća plaštem koaksijalnog kabela — što uzrokuje emisiju RF iz kabela unutar kuće (TVI, RFI, šum).</p>
+<p><strong>Izvedba</strong>:
+*   Horizontalne bakrene žice (radijali) na tlu ili unutar tla za vertikalne antene
+*   Kratka, ravna veza na zajednički SPG (Single Point Ground) u stanici
+*   Koaksijalni kabel s ferritnim torusom na ulazu u kuću</p>
+<p><strong>Što RF uzemljenje NE radi</strong>: Ne štiti od munje. Ne sprječava strujni udar od 230 V napajanja.</p>
+<hr />
+<h3 id="2-sigurnosno-zastitno-uzemljenje">2. Sigurnosno (zaštitno) uzemljenje</h3>
+<p><strong>Svrha</strong>: Zaštita od strujnog udara pri kvaru opreme. Zakonski obavezno.</p>
+<p><strong>Princip</strong>: Ako dođe do kratkog spoja unutar uređaja (npr. faza na kućištu), struja teče kroz zaštitni vodič (PE — Protective Earth) u masu, aktivira osigurač i prekida napajanje — umjesto da teče kroz operatora.</p>
+<p><strong>Izvedba</strong>:
+*   Žuto-zeleni kabel u Schuko utičnicama
+*   Svaki uređaj s metalnim kućištem mora biti priključen na PE
+*   Zajednička PE šina u razvodniku sobe</p>
+<p><strong>Standardi</strong>: IEC 60364, EN 61140 — obvezni u svim EU zemljama.</p>
+<div class="admonition note">
+<p class="admonition-title">Kabel boje</p>
+<ul>
+<li>Žuto-zelena pruga = PE (Protective Earth / zaštitno uzemljenje)</li>
+<li>Plava = N (neutralni vodič)</li>
+<li>Smeđa/crna = L (fazni vodič, "faza")</li>
+</ul>
+<p>Nikada ne koristite zaštitni vodič za "normalni" povrat struje — to je zakonski prekršaj i opasnost.</p>
+</div>
+<hr />
+<h3 id="3-gromobransko-uzemljenje">3. Gromobransko uzemljenje</h3>
+<p><strong>Svrha</strong>: Odvođenje energije munje bezopasno u tlo. Onemogućuje oštećenje opreme od induciranih prenapona.</p>
+<p><strong>Princip</strong>: Munja nosi stotine tisuća ampera u mikrosekundnom pulsu. Sustav mora pružiti minimalni otpor putu do tla — daleko od opreme.</p>
+<p><strong>Izvedba</strong>:
+*   Čelična ili bakrena šipka promjera ≥16 mm, ukopana ≥2 m u vlažno tlo
+*   Masivni bakreni vodič (≥16 mm²) koji spaja antenu/odvodnik s uzemljem
+*   Prenaponski odvodnici (SPD) na ulazu kabela u kuću</p>
+<p><strong>Što gromobransko uzemljenje NE garantira</strong>: Potpunu zaštitu od direktnog udara munje. Direktan udar razvija nekoliko milijuna volti — nijedno uzemljenje ne može to "apsorbirati" bez oštećenja.</p>
+<div class="admonition danger">
+<p class="admonition-title">JEDINA prava zaštita od munje</p>
+<p>Fizički isključite antenu iz uređaja i izvucite kabel iz prostorije <strong>čim zabrundite grmljavinu</strong>. Niti jedan odvodnik nije zamjena za ovo.</p>
+</div>
+<hr />
+<h2 id="single-point-ground-spg-kljucni-koncept">Single Point Ground (SPG) — ključni koncept</h2>
+<p>SPG je temeljna tehnika za radioamatersku stanicu: <strong>sve mase se spajaju na jednu jedinu točku</strong> (bakrena šina), a ta točka ide ravnom, kratkom vezom na uzemljenje.</p>
+<h3 id="zasto-spg">Zašto SPG?</h3>
+<p>Zamislite munju koja udari u vašu antenu i induktivno unese 10.000 V u koaksijalni kabel. Bez SPG:
+*   Kabel donese 10.000 V do transciivera
+*   Drugi kabel (USB, audio) donese 0 V do računala
+*   Razlika: 10.000 V — iskri između uređaja i uništava sve</p>
+<p>S SPG:
+*   Munja podiže potencijal SPG šine za 10.000 V
+*   <strong>Sva oprema spojena na tu šinu podiže se istovremeno za 10.000 V</strong>
+*   Razlika između uređaja: 0 V — nema iskre, nema oštećenja</p>
+<div class="admonition example">
+<p class="admonition-title">Vizualizacija SPG</p>
+<p>Zamislite sve uređaje kao objekte na mreži. Bez SPG, mreža je šarena — svaki uređaj visoko na različitoj razini. S munjom, razlike uzrokuju iskre. </p>
+<p>S SPG: sva mreža se pomiče gore i dolje zajedno, kao jedan brod na valu — razlika između brodskih elemenata ostaje nula.</p>
+</div>
+<h3 id="zemne-petlje-ground-loops-najveci-neprijatelj">Zemne petlje (Ground Loops) — najveći neprijatelj</h3>
+<p>Zemna petlja nastaje kada postoji <strong>dva ili više puta između mase jednog uređaja i mase drugog</strong>. Svaka petlja djeluje kao antena koja prikuplja elektromagnetske smetnje.</p>
+<p>Simptomi zemne petlje:
+*   50 Hz ili 100 Hz zujanje u audio signalu ("brum")
+*   RF QRM koji se mijenja ovisno o položaju kabela
+*   "Šum" proporcionalan snazi gradske elektrane</p>
+<p><strong>Rješenje</strong>: Sve mase voditi prema centru (SPG) kao zvijezda — ne kao prsten ili petlja!</p>
+<hr />
+<h2 id="radijali-rf-uzemljenje-vertikalnih-antena">Radijali — RF uzemljenje vertikalnih antena</h2>
+<p>Vertikalna antena je u osnovi pola dipola — gornji krak je žica koja ide prema nebu, a donji krak mora biti "zemlja". Problem: stvarna zemlja loš je vodič RF struje (gubici u tlu).</p>
+<p>Radijali su horizontalne žice rasprostrijete na tlu ili zakopane plitko, koje tvore "elektricni odraz" koji anteni simulira drugu polovicu dipola.</p>
+<h3 id="koliko-radijala">Koliko radijala?</h3>
+<table>
+<thead>
+<tr>
+<th>Broj radijala</th>
+<th>Dobit antene</th>
+<th>Smanjenje gubitaka</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0 (bez radijala)</td>
+<td>Loše (−10 dB ili više)</td>
+<td>Osnova</td>
+</tr>
+<tr>
+<td>4 radijala</td>
+<td>Prihvatljivo</td>
+<td>+6 dB</td>
+</tr>
+<tr>
+<td>16 radijala</td>
+<td>Dobro</td>
+<td>+9 dB</td>
+</tr>
+<tr>
+<td>32 radijala</td>
+<td>Izvrsno</td>
+<td>+10 dB</td>
+</tr>
+<tr>
+<td>120 radijala</td>
+<td>Maksimum</td>
+<td>+11 dB</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Preporuka</strong>: Minimum <strong>16 radijala</strong> duljine <span class="arithmatex">\(\lambda/4\)</span> za operativni rad. Svaki dodatni radijal poboljšava, ali s opadajućim prinosom.</p>
+<h3 id="duljina-radijala">Duljina radijala</h3>
+<p>Optimalna duljina jednog radijala: <span class="arithmatex">\(L = \frac{71.5}{f_{MHz}}\)</span> metara (<span class="arithmatex">\(\lambda/4\)</span>)</p>
+<p>Za 40 m opseg (7 MHz): <span class="arithmatex">\(L = \frac{71.5}{7} \approx 10.2 \, \text{m}\)</span></p>
+<div class="admonition tip">
+<p class="admonition-title">Zakopani vs. na površini</p>
+<p>Istraživanja pokazuju da su zakopani radijali i radijali na površini gotovo jednako efikasni. Radijali na površini su lakši za postavljanje i provjeru, ali zahtijevaju zaštitu od lawnmowera. Zakopani (5–10 cm dubine) estetski su prihvatljiviji.</p>
+</div>
+<h3 id="counterpoise">Counterpoise</h3>
+<p>Za prijenosne postaje bez mogućnosti polaganja radijala (balkon, krov):</p>
+<ul>
+<li>Duga žica (minimalno <span class="arithmatex">\(\lambda/4\)</span>) obješena prema dolje ili horizontalno</li>
+<li>Ne mora biti baš <span class="arithmatex">\(\lambda/4\)</span> — svaka duljina pomaže u odnosu na ništa</li>
+<li>Može se koristiti i metalična oluka, ograda ili krovni lim kao counterpoise</li>
+</ul>
+<hr />
+<h2 id="zastita-od-groma-sustav-odvodnika">Zaštita od groma — sustav odvodnika</h2>
+<p>Odvodnici prenapona (SPD — Surge Protection Devices) su "sigurnosni ventili" koji se aktiviraju pri prenaponu i odvedu energiju u uzemljenje.</p>
+<h3 id="vrste-odvodnika">Vrste odvodnika</h3>
+<table>
+<thead>
+<tr>
+<th>Vrsta</th>
+<th>Naziv</th>
+<th>Reakcijsko vrijeme</th>
+<th>Max. energija</th>
+<th>Primjena</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>GDT</strong></td>
+<td>Gas Discharge Tube</td>
+<td>100–500 ns</td>
+<td>Visoka</td>
+<td>Koaksijalni kabel, glavna zaštita</td>
+</tr>
+<tr>
+<td><strong>MOV</strong></td>
+<td>Metal Oxide Varistor</td>
+<td>1–50 ns</td>
+<td>Srednja</td>
+<td>Brza zaštita 230 V</td>
+</tr>
+<tr>
+<td><strong>TVS</strong></td>
+<td>Transient Voltage Suppressor</td>
+<td>&lt; 1 ns</td>
+<td>Niska</td>
+<td>Elektronički sklopovi</td>
+</tr>
+<tr>
+<td><strong>Polyphaser</strong></td>
+<td>Kombinirana rješenja</td>
+<td>&lt; 1 ns</td>
+<td>Visoka</td>
+<td>Profesionalna izvedba za antene</td>
+</tr>
+</tbody>
+</table>
+<h3 id="pozicija-montaze-odvodnika">Pozicija montaže odvodnika</h3>
+<div class="admonition warning">
+<p class="admonition-title">Montaža odvodnika — kritično</p>
+<p>Odvodnik mora biti montiran <strong>IZVAN kuće, na ulazu kabela kroz zid ili prozor</strong>, a ne blizu uređaja. Kada se aktivira, oslobađa energiju u tlo. Ako je montiran u sobi — ispreči radni stol!</p>
+</div>
+<p>Preporučeni redoslijed za koaksijalni kabel:
+<div class="highlight"><pre><span></span><code>Antena → [Koaks] → [Odvodnik na zidu, s kratkim izvodom na PE/SPG] → [Koaks] → Transciiver
+</code></pre></div></p>
+<h3 id="staticki-elektricitet">Statički elektricitet</h3>
+<p>Antene skupljaju statički elektricitet, posebno pri suhom vjetru. GDT odvodnik koji se aktivira pri nekoliko stotina volti štiti ulazni LNA tranzistor prijemnika.</p>
+<p>Za SDR prijemnike i osjetljive prijemnike: GDT odvodnik na ulazu je obavezan ako je antena na krovu.</p>
+<hr />
+<h2 id="prakticni-vodic-postavljanje-spg-sustava">Praktični vodič: Postavljanje SPG sustava</h2>
+<h3 id="materijali">Materijali</h3>
+<ul>
+<li>Bakrena šina (busbar) 40×5 mm, duljina ~50 cm</li>
+<li>Bakreni vodič 16 mm² (za veze do uzemljenja)</li>
+<li>Bakrena šipka za uzemljenje: ⌀16 mm, duljina 2 m</li>
+<li>Odvodnik prenapona za koaksijalni kabel (tip N ili PL-259)</li>
+<li>Kratki vodovi (&lt; 30 cm) od uređaja do šine</li>
+</ul>
+<h3 id="korak-po-korak">Korak po korak</h3>
+<p><strong>Korak 1</strong>: Postavite bakrenu šinu na zid blizu prozora/ulaska kabela u sobu. Ovo je SPG točka.</p>
+<p><strong>Korak 2</strong>: Izvan kuće, montirajte odvodnik na ulazu koaksijalnog kabela. Povežite kućište odvodnika kratkim debeli vodičem (≥10 mm²) na SPG šinu ili direktno na gromobranske uzemljenje.</p>
+<p><strong>Korak 3</strong>: Uzemljenje — debeli vodič (≥16 mm²) od SPG šine, ravno (bez ostrih zavoja) do vanjskog uzemljenja. Zabijte šipku u vlažno tlo ≥2 m dubine.</p>
+<p><strong>Korak 4</strong>: Povežite sve uređaje kratkim (&lt; 30 cm) žicama na SPG šinu:
+*   Kućište transciivera
+*   Kućište računala
+*   Kućište SWR metra
+*   Kućište antena switchera</p>
+<p><strong>Korak 5</strong>: Sve napajanje iz iste utičnice (iste faze) — smanjuje mogućnost ground loop-a.</p>
+<div class="admonition tip">
+<p class="admonition-title">Mjerenje kvalitete uzemljenja</p>
+<p>NanoVNA ili multimetar može izmjeriti otpor prema tlu. Cilj je &lt; 10 Ω od SPG šine do tla. Za gromobransko uzemljenje, standard je &lt; 5 Ω (ili &lt; 1 Ω za kritične instalacije).</p>
+</div>
+<hr />
+<h2 id="ceste-greske-i-rjesenja">Česte greške i rješenja</h2>
+<table>
+<thead>
+<tr>
+<th>Greška</th>
+<th>Simptomi</th>
+<th>Rješenje</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Nema radijala na vertikali</td>
+<td>Loše zračenje, visoki SWR</td>
+<td>Dodajte minimalno 4×λ/4 radijala</td>
+</tr>
+<tr>
+<td>Zemna petlja (ground loop)</td>
+<td>50 Hz zujanje u audio</td>
+<td>Svi kablovi na isti SPG čvor</td>
+</tr>
+<tr>
+<td>Dugi vodič do uzemljenja</td>
+<td>Slaba zaštita pri grmljavini</td>
+<td>Skratite; ravni kratki put je ključan</td>
+</tr>
+<tr>
+<td>Odvodnik blizu uređaja</td>
+<td>Šteta pri aktiviranju</td>
+<td>Premjestite na ulaz u kuću</td>
+</tr>
+<tr>
+<td>Nema ferrita na kabelu</td>
+<td>RF struje na plaštu</td>
+<td>Dodajte ferritor (FT-240-43, 8–10 okretaja)</td>
+</tr>
+<tr>
+<td>Miješanje vrsta uzemljenja</td>
+<td>Zujanje ili loša zaštita</td>
+<td>Jasno odvojite RF, PE i gromobranski sustav</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="resursi">Resursi</h2>
+<ul>
+<li><a href="https://www.arrl.org/lightning-protection"><strong>Lightning Protection for the Amateur Station — ARRL</strong></a> — Detaljan vodič za zaštitu</li>
+<li><a href="https://www.polyphaser.com"><strong>Polyphaser IS-B50LN-C2</strong></a> — Profesionalni odvodnik za koaksijalni kabel</li>
+<li><a href="https://www.qsl.net/on4un/"><strong>ON4UN's Low Band DXing</strong></a> — Poglavlje o RF uzemljenju i radijalima</li>
+</ul>
+<hr />
+<h2 id="povezane-teme">Povezane teme</h2>
+<ul>
+<li><a href="../safety/">Sigurnost</a> — Opasnosti visokih napona i električna sigurnost</li>
+<li><a href="../antennas/">Antene i vodovi</a> — Balun, vertikalne antene i radijali</li>
+<li><a href="../electronics/">Osnove elektronike</a> — Impedancija, kondenzatori i visokonaponska tehnika</li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Vrati se na vrh
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyright &copy; 2026 9A1ZG
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.tabs", "navigation.sections", "navigation.expand", "navigation.top", "toc.follow", "search.suggest", "search.highlight"], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Kopirano u me\u0111uspremnik", "clipboard.copy": "Kopiraj u me\u0111uspremnik", "search.result.more.one": "1 rezultat na ovoj stranici", "search.result.more.other": "# rezultat(a) na ovoj stranici", "search.result.none": "Ni\u0161ta nije prona\u0111eno", "search.result.one": "1 rezultat pretra\u017eivanja", "search.result.other": "# rezultat(a) pretra\u017eivanja", "search.result.placeholder": "Unesite pojam pretra\u017eivanja", "search.result.term.missing": "Nedostaje", "select.version": "Odabir verzije"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+        <script src="../../javascripts/mathjax.js"></script>
+      
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+      
+    
+  </body>
+</html>
