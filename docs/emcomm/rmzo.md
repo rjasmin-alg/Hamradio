@@ -98,7 +98,7 @@ NCS: "Svim postajama, svim postajama — ovo je 9A1XX, Net Control za RMZO mrež
       Otvaram EmComm net na frekvenciji 3.675 MHz u [UTC]. Mode: SSB.
       Postaje s hitnim prometom — javiti se odmah.
       Ostale postaje — javiti se prema abecedi kada dobijete poziv.
-      9A1XX, stoji."
+      9A1XX."
 
 Terenska postaja: "9A1XX, ovde 9A7YY s lokacije Petrinja, imam izvještaj za prioritet."
 
@@ -119,7 +119,7 @@ Go-bag je torba/ruksak s opremom sprema za brzo premještanje na terenu:
 | Solarni panel 20–30 W | Za produženi rad |
 | Wire antena (EFHW ili dipol) | 10–15 m žice, konektor, kratki jarbol |
 | Laptop/tablet s Winlink Expressom | Digitalne poruke |
-| VARA modem ili SignaLink | Zvučna kartica za digitale modove |
+| VARA modem ili SignaLink | Zvučna kartica za digitalne modove |
 | Log bilježnica i olovke | Papirnat zapis uvijek kao backup |
 | Popis EmComm frekvencija | Laminiran, u torbi |
 | Punjač i multi-adapter | 12V i 230V verzije |

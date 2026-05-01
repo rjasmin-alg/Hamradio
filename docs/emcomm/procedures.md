@@ -174,4 +174,4 @@ EmComm vještine se gube ako se ne primjenjuju. Preporučeni minimum:
 - [RMZO](rmzo.md) — hrvatska EmComm organizacija i frekvencije
 - [Winlink](winlink.md) — slanje strukturiranih poruka digitalnim putem
 - [Rad u pokretu](../activities/portable.md) — portabl stanica
-- [Fonetska abeceda](../resources/phonetic.md) — detalji o NATO abecedi
+- [Fonetska abeceda](../resources/phonetic_alphabet.md) — detalji o NATO abecedi

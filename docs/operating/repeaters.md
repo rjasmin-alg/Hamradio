@@ -208,6 +208,6 @@ Koristite RT Systems software ili manualno kroz menu:
 ## Povezane teme
 
 *   [Modovi rada](modes.md) — Digitalni modovi (DMR, D-STAR, Fusion)
-*   [APRS](aprs.md) — Automatski reporting sustav
+*   APRS — Automatski reporting sustav
 *   [Frekvencijski planovi](bandplans.md) — VHF/UHF repetitorski segmenti
 *   [Prva veza](first_qso.md) — Repetitorski QSO kao prvi korak
